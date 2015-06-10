@@ -1,0 +1,200 @@
+<div id="container-exp">
+	<div id="trial">
+		
+		<h1>Click the Search Button below to see the results!!</h1>
+		
+
+		
+
+		
+
+		<div id="headerdiv">
+			<svg width="180" height="150" id="headersvg"></svg>
+		</div>
+		<button type="button"  id="button1" onclick="mult_func();" >Search</button>
+                <div id="wrapper">
+		  <div id="cbbbb">
+	              <svg id="stagesvg2"></svg>
+                      <div id="question11"> </div>
+		      <div id="sbbbb"> 
+			<input type="range" id="sliderBar" min="0" max="100" step="1" value="50"  onChange="mult_func_slider(this.value);"/>
+		      </div>	
+		      <div id="puttext"></div>	
+		  </div>
+		  <div id="cbbbb1">
+			<svg id="stagesvg3"></svg>
+			<div id="question12""> </div>	
+                        <div id="sbbbb2"> 
+			  <input type="range" id="sliderBar2" min="0" max="100" step="1" value="50" onChange="mult_func_slider2(this.value);"/>
+		        </div>
+			<div id="puttext2"></div>	
+		  </div>
+                </div>
+
+		<div id="puttext_nt"></div>
+
+
+	</div>
+</div>
+
+
+
+<script>
+
+var metritis_slider=0;
+
+var metritis_hdr=0;
+var metritis=0;
+
+var header_figure = ["static/images/h1.jpg", "static/images/h2.jpg", "static/images/h3.jpg"];
+
+var figure_names = ["static/images/p1.jpg", "static/images/p2.jpg", "static/images/p3.jpg"];
+
+
+	
+
+
+	var show_hdr_img = function(wh_to_sh_hdr) {
+
+		metritis_hdr=metritis_hdr+1;
+
+		d3.select("#headersvg")
+			.append("image")
+			.attr("id","hdr_img")
+			.attr("x", 0)
+			.attr("y", 0)
+			.attr("width", 200)
+			.attr("height", 200)
+			.attr("xlink:href", wh_to_sh_hdr);
+
+	};
+	
+	var mult_func = function() {
+
+                
+		show_img(figure_names[metritis]);
+		show_q1("How likely ...");
+		show_img2(figure_names[metritis]);
+		show_q2("How likely ...");
+
+		metritis=metritis+1;
+
+		
+		document.getElementById("button1").disabled = true; 
+		
+
+		document.getElementById("sliderBar").disabled = false; 
+		document.getElementById('sliderBar').style.visibility="visible";
+		document.getElementById("sliderBar2").disabled = false; 
+		document.getElementById('sliderBar2').style.visibility="visible";
+
+
+		//document.getElementById("sliderBar1").disabled = false; 
+		//document.getElementById('sliderBar1').style.visibility="visible";
+
+		show_text_next_trial ("When you are ready, please press Enter to continue to the next trial");
+	};
+
+	var show_img = function(wh_to_sh) {
+
+		
+		
+		d3.select("#stagesvg2")
+			.append("image")
+			.attr("id","imggggg")
+			.attr("width", 264)
+			.attr("height", 288)
+			.attr("xlink:href", wh_to_sh);
+
+		
+
+	};
+
+	var show_q1 = function(text_q1) {
+		
+		d3.select("#question11")
+		  .append("div")
+		  .attr("id","texttt_q11")
+		  .text(text_q1);
+	};
+
+	var show_img2 = function(wh_to_sh) {
+		
+		
+		d3.select("#stagesvg3")
+			.append("image")
+			.attr("id","imggggg4")
+			.attr("width", 264)
+			.attr("height", 288)
+			.attr("xlink:href", wh_to_sh);
+
+	};
+
+	var show_q2 = function(text_q2) {
+		
+		d3.select("#question12")
+		  .append("div")
+		  .attr("id","texttt_q12")
+		  .text(text_q2);
+	};
+
+	//--------------------------------functions for the slider--------------------------------------//
+	
+	var mult_func_slider = function(vts) {
+		if (metritis_slider >0){
+			remove_texttt();
+		}
+		metritis_slider = metritis_slider+1;
+		showSliderValue(vts) ; 
+	};
+
+        var mult_func_slider2 = function(vts) {
+		if (metritis_slider2 >0){
+			remove_texttt2();
+		}
+		metritis_slider2 = metritis_slider2+1;
+		showSliderValue2(vts) ; 
+	};
+
+	var remove_texttt = function() {
+		d3.select("#texttt").remove();		
+	};
+
+	var remove_texttt2 = function() {
+		d3.select("#texttt2").remove();		
+	};
+
+	var showSliderValue = function(text2) {
+		
+		d3.select("#puttext")
+		  .append("div")
+		  .attr("id","texttt")
+		  .text(text2);
+	};
+
+	var showSliderValue2 = function(text22) {
+		
+		d3.select("#puttext2")
+		  .append("div")
+		  .attr("id","texttt2")
+		  .text(text22);
+	};
+
+
+	//--------------------------------functions for the slider--------------------------------------//
+
+	
+   
+	
+
+	var show_text_next_trial = function(text_nt) {
+		
+		d3.select("#puttext_nt")
+		  .append("div")
+		  .attr("id","texttt_nt")
+		  .text(text_nt);
+		  //window.alert('3');
+        	  //return 3;
+	};
+
+</script>

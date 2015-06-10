@@ -1,0 +1,522 @@
+<div id="container-questionnaire">
+    <h1>Task Complete</h1>
+
+    <hr>
+
+    <p>You are finished!  Thank you for your contributions to science. You will be eligible for full payment once you answer the following questions.</p>
+
+    <div class="instructions well">
+
+        <form id="postquiz" action="debrief" method="post">
+
+
+            <!-- beginning of a question -->
+            <div class="row question">
+                <div class="col-md-8">
+                    On a scale of 1-10 (where 10 is the most engaged), please rate how <b>ENGAGING</b> you found the learning task:
+                </div>
+                <div class="col-md-4">
+                    <select id="engagement" name="engagement">
+                        <option value="10">10 - Very engaging</option>
+                        <option value="9">9</option>
+                        <option value="8">8</option>
+                        <option value="7">7</option>
+                        <option value="6">6</option>
+                        <option value="5" SELECTED>5 - Moderately</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        <option value="0">0 - Not engaged</option>
+                    </select>
+                </div>
+            </div>
+            <!-- end of a question -->
+
+
+            <!-- beginning of a question -->
+            <div class="row question">
+                <div class="col-md-8">
+                    On a scale of 1-10 (where 10 is the most difficult), please rate how <b>DIFFICULT</b> you found the learning task:
+                </div>
+                <div class="col-md-4">
+                    <select id="difficulty" name="difficulty">
+                        <option value="10">10 - Very difficult</option>
+                        <option value="9">9</option>
+                        <option value="8">8</option>
+                        <option value="7">7</option>
+                        <option value="6">6</option>
+                        <option value="5" SELECTED>5 - Moderately difficult</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        <option value="0">0 - Not difficult at all</option>
+                    </select>
+                </div>
+            </div>
+            <!-- end of a question -->
+
+
+
+	    <!-- beginning of extra question -->
+	    Q1: In your daily life, how do you tend to trust another person? Please indicate to what extent you agree with the following statements. <HR> <BR>
+	    
+
+	     <!-- question 11-->
+            <div class="row question">
+                <div class="col-md-8">
+                   Q1.1: I usually trust a person until there is a reason not to 
+	           
+                </div>
+                <div class="col-md-4">
+                    <select id="q11" name="q11">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+	    <!-- question 12-->
+	   <div class="row question">
+                <div class="col-md-8">
+                    Q1.2: Even when the stakes are high, I still think that most people are honest in their dealings with others           
+                </div>
+                <div class="col-md-4">
+                    <select id="q12" name="q12">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+	    <!-- question 13-->
+	   <div class="row question">
+                <div class="col-md-8">
+                   Q1.3: In general, people do not really care about the well-being of others
+                </div>
+                <div class="col-md-4">
+                    <select id="q13" name="q13">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+
+		Q2: In general, to what extent do you trust online applications and services (such as offered on the Internet or your smartphone)? Please indicate to what extent you agree with the 			following statements.<HR> <BR>
+
+  		<!-- question 21-->
+            <div class="row question">
+                <div class="col-md-8">
+                    Q2.1: I easily trust online applications
+	           
+                </div>
+                <div class="col-md-4">
+                    <select id="q21" name="q21">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+	    <!-- question 22-->
+	   <div class="row question">
+                <div class="col-md-8">
+                   Q2.2: The higher the price, the more I tend to trust the online application or service           
+                </div>
+                <div class="col-md-4">
+                    <select id="q22" name="q22">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+	    <!-- question 23-->
+	   <div class="row question">
+                <div class="col-md-8">
+                    Q2.3: I am very suspicious towards free online applications
+                </div>
+                <div class="col-md-4">
+                    <select id="q23" name="q23">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+	<!-- question 24-->
+	   <div class="row question">
+                <div class="col-md-8">
+                    Q2.4: I tend to trust online applications offered by public organizations more than those offered by commercial organization
+                </div>
+                <div class="col-md-4">
+                    <select id="q24" name="q24">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+
+
+Q3: Next, we ask you about different aspects of what makes you trust online.In general, how do you perceive of being protected on the Internet? Please indicate to what extent you agree with the following statements. <HR> <BR>
+
+
+	<!-- question 31-->
+            <div class="row question">
+                <div class="col-md-8">
+                    Q3.1: I have lost control over how my personal information is collected and used by digital applications and services
+	           
+                </div>
+                <div class="col-md-4">
+                    <select id="q31" name="q31">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+	    <!-- question 32-->
+	   <div class="row question">
+                <div class="col-md-8">
+                    Q3.2: Organizations handle the personal information they collect about me in a proper way           
+                </div>
+                <div class="col-md-4">
+                    <select id="q32" name="q32">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+	    <!-- question 33-->
+	   <div class="row question">
+                <div class="col-md-8">
+                    Q3.3: Existing laws and organizational practices adequately protect me from online problems or risks today
+                </div>
+                <div class="col-md-4">
+                    <select id="q33" name="q33">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+	<!-- question 34-->
+	   <div class="row question">
+                <div class="col-md-8">
+                    Q3.4: I think that future legal measures such as 'the right to be forgotten' (i.e. the ability to erase your personal information) are necessary to increase control 
+                </div>
+                <div class="col-md-4">
+                    <select id="q34" name="q34">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+
+	<!-- question 35-->
+	   <div class="row question">
+                <div class="col-md-8">
+                    Q3.5: I feel confident that encryption and other technical advances online make it safe for me to use 
+                </div>
+                <div class="col-md-4">
+                    <select id="q35" name="q35">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+
+Q4: In general, do you look for information or (legal) guarantees when you decide to use an application or service? Please indicate to what extent you look for information and assurance in the following statements.<HR> <BR>
+
+
+	<!-- question 41-->
+            <div class="row question">
+                <div class="col-md-8">
+                    Q4.1: I look for information about the reputation of the organization
+	           
+                </div>
+                <div class="col-md-4">
+                    <select id="q41" name="q41">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+	    <!-- question 42-->
+	   <div class="row question">
+                <div class="col-md-8">
+                   Q4.2: I look for information about the (physical) location of the organization         
+                </div>
+                <div class="col-md-4">
+                    <select id="q42" name="q42">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+	    <!-- question 43-->
+	   <div class="row question">
+                <div class="col-md-8">
+                   Q4.3: I look for information about laws that are applicable with regard to my interaction with the organization
+                </div>
+                <div class="col-md-4">
+                    <select id="q43" name="q43">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+	<!-- question 44-->
+	   <div class="row question">
+                <div class="col-md-8">
+                    Q4.4: I look for any guarantees regarding confidentiality of the information that I provide 
+                </div>
+                <div class="col-md-4">
+                    <select id="q44" name="q44">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+
+	<!-- question 45-->
+	   <div class="row question">
+                <div class="col-md-8">
+                    Q4.5: I look for any information about complaint procedures in case of problems
+                </div>
+                <div class="col-md-4">
+                    <select id="q45" name="q45">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+	<!-- question 46-->
+	   <div class="row question">
+                <div class="col-md-8">
+                    Q4.6: I look for any information about who is liable in case of problems 
+                </div>
+                <div class="col-md-4">
+                    <select id="q46" name="q46">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+
+	<!-- question 47-->
+	   <div class="row question">
+                <div class="col-md-8">
+                    Q4.7: I look for trust marks or seals of approval 
+                </div>
+                <div class="col-md-4">
+                    <select id="q47" name="q47">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+Q5: When using an online application, do you feel you are able to...? Please indicate to what extent you agree with the statements below. <HR> <BR>
+
+  		<!-- question 51-->
+            <div class="row question">
+                <div class="col-md-8">
+                    Q5.1: Understand your rights and duties as described by the Terms of the application provider
+	           
+                </div>
+                <div class="col-md-4">
+                    <select id="q51" name="q51">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+	    <!-- question 52-->
+	   <div class="row question">
+                <div class="col-md-8">
+                   Q5.2: Detect when your personal information has been misused         
+                </div>
+                <div class="col-md-4">
+                    <select id="q52" name="q52">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+	    <!-- question 53-->
+	   <div class="row question">
+                <div class="col-md-8">
+                    Q5.3: Detect when a third party has gained access to the application without authorisation 
+                </div>
+                <div class="col-md-4">
+                    <select id="q53" name="q53">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+	<!-- question 54-->
+	   <div class="row question">
+                <div class="col-md-8">
+                    Q5.4: Assess the effectiveness of available redress mechanisms to remedy any problems or harms
+                </div>
+                <div class="col-md-4">
+                    <select id="q54" name="q54">
+                        
+                        <option value="5">5 </option>
+                        <option value="4">4</option>
+                        <option value="3" SELECTED>3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+
+
+            <!-- end of a question -->
+
+
+        </form>
+    </div>
+
+    <hr>
+
+    <div class="instructionsnav">
+        <div class="row">
+            <div class="col-xs-2">
+            </div>
+            <div class="col-xs-7">
+            </div>
+            <div class="col-xs-3">
+                <button type="button" id="next" value="next" class="btn btn-primary btn-lg continue">
+                    Continue <span class="glyphicon glyphicon-arrow-right"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+</div>
