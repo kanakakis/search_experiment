@@ -1,0 +1,132 @@
+<div id="container-instructions">
+
+    <h1>Instructions</h1>
+
+    <hr>
+
+    <div class="instructions well">
+
+        <p>
+            This is the second page of instructions
+        </p>
+
+        <p>
+            Instructions for a success
+
+
+		<div id="instr2_headerdiv" align="center">
+			<svg width="180" height="150" id="instr2_headersvg"></svg>
+		</div>
+		
+		<div align="center">
+			<button type="button"  id="instr2_button1" onclick="instr2_mult_func();"  >Search</button>
+		</div>
+
+
+		<div id="wrapper">
+		  <div id="instr2_cbbbb">
+	              <svg id="instr2_stagesvg2"></svg>
+
+                      <div id="instr2_radio" align="center">
+				<input type="radio" id="instr2_radio1"  name="sex" value="male"  onclick="instr2_enable_next();" >Success 
+				<input type="radio" id="instr2_radio2" name="sex" value="female" onclick="alert('This was not a right answer, please try again');" >Failure
+		      </div>
+		      
+		  </div>
+			
+		  <div id="instr2_cbbbb1">
+			<svg id="instr2_stagesvg3"></svg>
+			
+		  </div>
+
+                </div>
+        </p>
+
+
+        <script type="text/javascript">
+        //console.log(psiTurk.getInstructionIndicator())
+        </script>
+
+    </div>
+
+    <hr>
+
+    <div class="instructionsnav">
+        <div class="row">
+            <div class="col-xs-2">
+                <button type="button" id="next" value="next" class="btn btn-primary btn-lg previous">
+                <span class="glyphicon glyphicon-arrow-left"></span> Previous
+                </button>
+            </div>
+            <div class="col-xs-8">
+            </div>
+            <div class="col-xs-2">
+                <button type="button" id="next2" value="next" class="btn btn-primary btn-lg continue">
+                Next <span class="glyphicon glyphicon-arrow-right"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+		<script>
+
+		document.getElementById("next2").disabled = true; 
+		
+		//show the main figure
+			d3.select("#instr2_headersvg")
+				.append("image")
+				.attr("id","instr2_hdr_img")
+				.attr("x", 0)
+				.attr("y", 0)
+				.attr("width", 200)
+				.attr("height", 200)
+				.attr("xlink:href", "../../static/images/h1.jpg");
+			
+
+		
+		document.getElementById("instr2_radio").style.visibility="hidden";
+		
+
+		var instr2_enable_next = function() { 
+			
+			document.getElementById("next2").disabled = false; 
+			alert('This was  a right answer, you may now continue: Please press next button below');
+		};
+
+
+	//show the two other figures
+	var instr2_mult_func = function() {
+
+                
+		d3.select("#instr2_stagesvg2")
+				.append("image")
+				.attr("id","instr2_img2")
+				.attr("x", 0)
+				.attr("y", 0)
+				.attr("width", 264)
+				.attr("height", 288)
+				.attr("xlink:href", "../../static/images/p2.jpg");
+
+		d3.select("#instr2_stagesvg3")
+				.append("image")
+				.attr("id","instr2_img3")
+				.attr("x", 0)
+				.attr("y", 0)
+				.attr("width", 264)
+				.attr("height", 288)
+				.attr("xlink:href", "../../static/images/p2.jpg");
+		
+		document.getElementById("instr2_button1").disabled = true; 
+	
+		
+		document.getElementById("instr2_radio").style.visibility="visible";
+		
+		
+	};
+
+
+	   </script>

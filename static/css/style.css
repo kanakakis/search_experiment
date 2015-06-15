@@ -88,6 +88,8 @@ strong {
 
 /* @mike */
 
+
+
 #button1{
   margin-top:20px;
 }
@@ -98,7 +100,14 @@ strong {
   margin-top:30px;
 }
 
-#cbbbb, #cbbbb1{
+#instr2_wrapper{
+  overflow:hidden;
+  width:100%;
+  margin-top:30px;
+}
+
+
+#cbbbb, #cbbbb1, #instr2_cbbbb, #instr2_cbbbb1{
   width:400px;
   float:left;
   text-align:center;

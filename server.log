@@ -186,3 +186,118 @@
 2015-06-04 16:39:22,185 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
 2015-06-04 16:39:22,191 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
 2015-06-04 16:39:22,224 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-11 13:23:01,445 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-11 13:23:01,537 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-11 13:23:01,602 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-11 13:23:01,664 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-11 13:23:01,721 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-11 13:23:01,778 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-11 13:23:01,867 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-11 13:23:01,942 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-11 13:23:01,999 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-11 13:23:02,057 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-11 13:23:02,104 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-11 13:23:02,154 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-11 13:23:02,233 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-11 13:23:02,268 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-11 13:23:02,373 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-11 13:23:02,374 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-11 13:23:02,436 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-11 13:43:20,206 Exception on /h1.jpg [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/psiturk/experiment.py", line 665, in regularpage
+    return render_template(pagename)
+  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 64, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: h1.jpg
+2015-06-11 13:43:27,123 Exception on /h1.jpg [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/psiturk/experiment.py", line 665, in regularpage
+    return render_template(pagename)
+  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 64, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: h1.jpg
+2015-06-11 13:48:07,095 Exception on /h1.jpg [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/psiturk/experiment.py", line 665, in regularpage
+    return render_template(pagename)
+  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 830, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 791, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 765, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 64, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: h1.jpg
+2015-06-15 13:25:21,181 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:25:21,290 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:25:21,364 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:25:21,416 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:25:21,447 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:25:21,486 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:25:21,542 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:25:21,561 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:25:21,567 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:25:21,686 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:25:21,753 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:25:21,766 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:25:21,818 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:25:21,861 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:25:21,877 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:25:21,903 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:25:21,956 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js

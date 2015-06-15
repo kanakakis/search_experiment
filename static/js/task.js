@@ -209,7 +209,7 @@ var Questionnaire = function() {
 								      'an21':an21, 'an22':an22, 'an23':an23, 'an24':an24, 
 								      'an31':an31, 'an32':an32, 'an33':an33, 'an34':an34, 'an35':an35,
 								      'an41':an41, 'an42':an42, 'an43':an43, 'an44':an44, 'an45':an45, 'an46':an46, 'an47':an47,
-								      'an51':an51, 'an52':an52, 'an53':an53, 'an54':an54,});
+								      'an51':an51, 'an52':an52, 'an53':an53, 'an54':an54});
 
 		$('textarea').each( function(i, val) {
 			psiTurk.recordUnstructuredData(this.id, this.value);

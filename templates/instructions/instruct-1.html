@@ -7,9 +7,19 @@
 	<div class="instructions well">
 
 	    <p>
-		    This is the first page of instructions.
+		    This is an experiment related to trust in online applications. <BR>
+		    You will see a sequence of 25 trials, related to a search engine which provides
 	    </p>
 	    
+
+		<div id="instr1_headerdiv" align="center">
+			<svg width="180" height="150" id="instr1_headersvg"></svg>
+		</div>
+		
+		<div align="center">
+			<button type="button"  id="instr1_button1"  onclick="instr1_enable_next();" >Search</button>
+		</div>
+
 	    <p>
 	    	Be helpful, clear.
         </p>
@@ -21,6 +31,8 @@
 	    <script type="text/javascript">
 	    //console.log(psiTurk.getInstructionIndicator())
 	    </script>
+
+	
 
 	</div>
 
@@ -43,3 +55,32 @@
     </div>
 
 </div>
+
+		<script>
+
+		document.getElementById("next").disabled = true; 
+
+		//instr1_show_hdr_img("h1.jpg");
+		//var instr1_show_hdr_img = function(instr1_wh_to_sh_hdr) {
+	
+			d3.select("#instr1_headersvg")
+				.append("image")
+				.attr("id","instr1_hdr_img")
+				.attr("x", 0)
+				.attr("y", 0)
+				.attr("width", 200)
+				.attr("height", 200)
+				//.attr("xlink:href", "h1.jpg");
+				.attr("xlink:href", "../../static/images/h1.jpg");
+			//};
+
+		//document.getElementById("instr1_button1").disabled = true; 
+
+		var instr1_enable_next = function(){
+			document.getElementById("next").disabled = false; 
+		};
+
+	   </script>
+
+
+
