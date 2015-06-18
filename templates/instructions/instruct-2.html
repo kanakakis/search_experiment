@@ -25,14 +25,14 @@
 		<BR><BR>
 
 
-		<div id="instr2_wrapper">
+		<div id="instr2_wrapper" align="center">
 
 		  <div id="instr2_cbbbb" >
 	              <svg id="instr2_stagesvg2" width="264" height="288"></svg>
 
                       <div id="instr2_radio" align="center">
-				<input type="radio" id="instr2_radio1"  name="decide" value="male"  onclick="instr2_enable_next();" >Success 
-				<input type="radio" id="instr2_radio2" name="decide" value="female" onclick="alert('This was not a right answer, please try again');" >Failure
+				<input type="radio" id="instr2_radio1"  name="decide" value="success"  onclick="instr2_enable_next();" >Success 
+				<input type="radio" id="instr2_radio2" name="decide" value="failure" onclick="alert('This was not a right answer, please try again');" >Failure
 		      </div>
 			<BR>
 		      <input type="range" id="instr2_sliderBar" min="0" max="100" step="1" value="50"  onChange="instr2_mult_func_slider(this.value);"/>

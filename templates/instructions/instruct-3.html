@@ -7,11 +7,46 @@
     <div class="instructions well">
 
         <p>
-            This is the third page of instructions
+            This is the second page of instructions.
         </p>
 
         <p>
-            Put some text in this paragraph
+            Instructions for a success
+
+
+		<div id="instr3_headerdiv" align="center">
+			<svg width="180" height="150" id="instr3_headersvg"></svg>
+		</div>
+		
+		<div align="center">
+			<button type="button"  id="instr3_button1" onclick="instr3_mult_func();"  >Search</button>
+		</div>
+
+		<BR><BR>
+
+
+		<div id="instr3_wrapper" align="center">
+
+		  <div id="instr3_cbbbb" >
+	              <svg id="instr3_stagesvg2" width="264" height="288"></svg>
+
+                      <div id="instr3_radio" align="center">
+				<input type="radio" id="instr3_radio1"  name="decide" value="success"  onclick="alert('This was not a right answer, please try again');" >Success 
+				<input type="radio" id="instr3_radio2" name="decide" value="failure" onclick= "instr3_enable_next();" >Failure
+		      </div>
+			<BR>
+		      <input type="range" id="instr3_sliderBar" min="0" max="100" step="1" value="50"  onChange="instr3_mult_func_slider(this.value);"/>
+		      <div id="instr3_puttext2"></div>
+		  </div>
+
+		</div>
+		
+
+		<BR><BR>
+			
+		 
+
+                
         </p>
 
 
@@ -33,7 +68,7 @@
             <div class="col-xs-8">
             </div>
             <div class="col-xs-2">
-                <button type="button" id="next" value="next" class="btn btn-primary btn-lg continue">
+                <button type="button" id="next3" value="next" class="btn btn-primary btn-lg continue">
                 Next <span class="glyphicon glyphicon-arrow-right"></span>
                 </button>
             </div>
@@ -41,3 +76,94 @@
     </div>
 
 </div>
+
+
+		<script>
+
+	
+
+		document.getElementById("next3").disabled = true; 
+
+		document.getElementById("instr3_radio").style.visibility="hidden";
+		document.getElementById("instr3_sliderBar").style.visibility="hidden";
+		document.getElementById("instr3_sliderBar").disabled = true;
+		
+
+		
+		//show the main figure
+			d3.select("#instr3_headersvg")
+				.append("image")
+				.attr("id","instr3_hdr_img")
+				.attr("x", 0)
+				.attr("y", 0)
+				.attr("width", 200)
+				.attr("height", 200)
+				.attr("xlink:href", "../../static/images/h1.jpg");
+			
+
+		
+
+		var instr3_enable_next = function() { 
+			
+			
+			document.getElementById("instr3_radio1").disabled = true; 
+			document.getElementById("instr3_radio2").disabled = true; 
+
+			document.getElementById("instr3_sliderBar").style.visibility="visible";
+			document.getElementById("instr3_sliderBar").disabled = false; 
+			alert('This was  a right answer, you may now continue:\n Please respond how your trust on system changed after this outcome, using the slidebar below');
+		};
+
+
+	//show the two other figures
+	var instr3_mult_func = function() {
+
+                
+		d3.select("#instr3_stagesvg2")
+				.append("image")
+				.attr("id","instr3_img2")
+				.attr("x", 0)
+				.attr("y", 0)
+				.attr("width", 264)
+				.attr("height", 288)
+				.attr("xlink:href", "../../static/images/p1.jpg");
+
+		
+		
+		document.getElementById("instr3_button1").disabled = true; 
+	
+		
+		document.getElementById("instr3_radio").style.visibility="visible";
+		
+		
+		
+	};
+
+	var instr3_mult_func_slider = function(vts) {
+		document.getElementById("next3").disabled = false; 
+
+		instr3_showSliderValue2(document.getElementById("instr3_sliderBar").value);
+		document.getElementById("instr3_sliderBar").disabled = true; 
+
+
+		//success and trust increase
+		if (document.getElementById("instr3_sliderBar").value < 50) {
+			alert('Your response indicates a trust decrease after a failure, which is an EXPECTED result.\n\n You may now continue in the next page of instractions:\n Please click the "Next" button below.');
+
+		}
+
+		if (document.getElementById("instr3_sliderBar").value >= 50) {
+			alert('Your response indicates a trust increase after a failure, which is an UNEXPECTED result. \n\n You may now continue in the next page of instractions:\n Please click the "Next" button below.');
+		}
+	};
+
+	var instr3_showSliderValue2 = function(instr3_text22) {
+		
+		d3.select("#instr3_puttext2")
+		  .append("div")
+		  .attr("id","instr3_texttt2")
+		  .text(instr3_text22);
+	};
+
+
+	   </script>

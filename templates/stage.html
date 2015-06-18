@@ -1,21 +1,24 @@
 <div id="container-exp">
 	<div id="trial">
 		
-		<h1>Click the Search Button below to see the results!!</h1>
+		
 		
 
 		
-
+		<div id="puttext_nt"></div>
 		
 
 		<div id="headerdiv">
 			<svg width="180" height="150" id="headersvg"></svg>
 		</div>
+		<h1>Click the Search Button below to see the results!!</h1>
 		<button type="button"  id="button1" onclick="mult_func();" >Search</button>
+
+
                 <div id="wrapper">
 		  <div id="cbbbb">
 	              <svg id="stagesvg2"></svg>
-                      <div id="question11"> </div>
+                      <div id="question11" width="350"> </div>
 		      <div id="sbbbb"> 
 			<input type="range" id="sliderBar" min="0" max="100" step="1" value="50"  onChange="mult_func_slider(this.value);"/>
 		      </div>	
@@ -23,7 +26,7 @@
 		  </div>
 		  <div id="cbbbb1">
 			<svg id="stagesvg3"></svg>
-			<div id="question12""> </div>	
+			<div id="question12" width="350"> </div>	
                         <div id="sbbbb2"> 
 			  <input type="range" id="sliderBar2" min="0" max="100" step="1" value="50" onChange="mult_func_slider2(this.value);"/>
 		        </div>
@@ -31,7 +34,7 @@
 		  </div>
                 </div>
 
-		<div id="puttext_nt"></div>
+		
 
 
 	</div>
@@ -46,11 +49,13 @@ var metritis_slider=0;
 var metritis_hdr=0;
 var metritis=0;
 
-var header_figure = ["static/images/h1.jpg", "static/images/h2.jpg", "static/images/h3.jpg"];
-
-var figure_names = ["static/images/p1.jpg", "static/images/p2.jpg", "static/images/p3.jpg"];
 
 
+var header_figure = ["static/images/h1.jpg", "static/images/h2.jpg", "static/images/h3.jpg", "static/images/h4.jpg"];
+
+var figure_names = ["static/images/p1.jpg", "static/images/p2.jpg", "static/images/p2.jpg", "static/images/p2.jpg"];
+
+var figure_names2 = ["static/images/a1.jpg", "static/images/a2.jpg", "static/images/a3.jpg", "static/images/a4.jpg"];
 	
 
 
@@ -72,10 +77,15 @@ var figure_names = ["static/images/p1.jpg", "static/images/p2.jpg", "static/imag
 	var mult_func = function() {
 
                 
-		show_img(figure_names[metritis]);
-		show_q1("How likely ...");
-		show_img2(figure_names[metritis]);
-		show_q2("How likely ...");
+		show_img(figure_names[metritis-1]);
+		show_q1();
+		show_img2(figure_names2[metritis-1]);
+		show_q2();
+
+
+		showSliderValue(document.getElementById('sliderBar').value) ; 		
+		showSliderValue2(document.getElementById('sliderBar2').value) ; 
+
 
 		metritis=metritis+1;
 
@@ -92,30 +102,26 @@ var figure_names = ["static/images/p1.jpg", "static/images/p2.jpg", "static/imag
 		//document.getElementById("sliderBar1").disabled = false; 
 		//document.getElementById('sliderBar1').style.visibility="visible";
 
-		show_text_next_trial ("When you are ready, please press Enter to continue to the next trial");
+		show_text_next_trial ();
 	};
 
 	var show_img = function(wh_to_sh) {
 
-		
-		
 		d3.select("#stagesvg2")
 			.append("image")
 			.attr("id","imggggg")
 			.attr("width", 264)
 			.attr("height", 288)
-			.attr("xlink:href", wh_to_sh);
-
-		
-
+			.attr("xlink:href", wh_to_sh);		
 	};
 
-	var show_q1 = function(text_q1) {
-		
+
+	var show_q1 = function() {		
 		d3.select("#question11")
 		  .append("div")
 		  .attr("id","texttt_q11")
-		  .text(text_q1);
+		  //.text(text_q1);
+		  .html ('In your opinion, to what extent does ACME <br>   search engine will achieve to <B> provide the anticipated results at the first page </B>, <br> during your next search?');
 	};
 
 	var show_img2 = function(wh_to_sh) {
@@ -130,29 +136,26 @@ var figure_names = ["static/images/p1.jpg", "static/images/p2.jpg", "static/imag
 
 	};
 
-	var show_q2 = function(text_q2) {
+	var show_q2 = function() {
 		
 		d3.select("#question12")
 		  .append("div")
 		  .attr("id","texttt_q12")
-		  .text(text_q2);
+		  //.text(text_q2);
+		    .html('In your opinion, to what extent does ACME <br>  search engine <B> record  your search history </B> <br> (including keywords revealing your health status) <br> to deliver personalised advertising?');
 	};
 
 	//--------------------------------functions for the slider--------------------------------------//
 	
 	var mult_func_slider = function(vts) {
-		if (metritis_slider >0){
-			remove_texttt();
-		}
-		metritis_slider = metritis_slider+1;
+		
+		remove_texttt();
 		showSliderValue(vts) ; 
 	};
 
         var mult_func_slider2 = function(vts) {
-		if (metritis_slider2 >0){
-			remove_texttt2();
-		}
-		metritis_slider2 = metritis_slider2+1;
+		
+		remove_texttt2();
 		showSliderValue2(vts) ; 
 	};
 
@@ -187,14 +190,12 @@ var figure_names = ["static/images/p1.jpg", "static/images/p2.jpg", "static/imag
    
 	
 
-	var show_text_next_trial = function(text_nt) {
+	var show_text_next_trial = function() {
 		
 		d3.select("#puttext_nt")
 		  .append("div")
 		  .attr("id","texttt_nt")
-		  .text(text_nt);
-		  //window.alert('3');
-        	  //return 3;
+		  .html('<font color="red" > When you are ready, please press Enter to continue to the next trial </font>');
 	};
 
 </script>

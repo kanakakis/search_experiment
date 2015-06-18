@@ -14,8 +14,10 @@ var mycounterbalance = counterbalance;  // they tell you which condition you hav
 // All pages to be loaded
 var pages = [
 	"instructions/instruct-1.html",
-	"instructions/instruct-2.html",
-	"instructions/instruct-3.html",
+	//"instructions/instruct-2.html",
+	//"instructions/instruct-3.html",
+	//"instructions/instruct-4.html",
+	//"instructions/instruct-5.html",
 	"instructions/instruct-ready.html",
 	"stage.html",
 	"postquestionnaire.html"
@@ -25,8 +27,10 @@ psiTurk.preloadPages(pages);
 
 var instructionPages = [ // add as a list as many pages as you like
 	"instructions/instruct-1.html",
-	"instructions/instruct-2.html",
-	"instructions/instruct-3.html",
+	//"instructions/instruct-2.html",
+	//"instructions/instruct-3.html",
+	//"instructions/instruct-4.html",
+	//"instructions/instruct-5.html",
 	"instructions/instruct-ready.html"
 ];
 
@@ -52,11 +56,29 @@ var StroopExperiment = function() {
 	
 
 	var next = function() {
-		if (metritis==3) {
+		if (metritis==5) {
 			finish();
 		}
+
+		if (metritis==0) {
+
+			
+			document.getElementById("button1").disabled = true; 	
+			document.getElementById('button1').style.visibility="hidden";	
+		
+			showSliderValue(document.getElementById('sliderBar').value) ; 		
+			showSliderValue2(document.getElementById('sliderBar2').value) ; 
+
+			show_q1();
+			show_q2();
+
+			metritis=metritis+1;
+
+		}	
 		else {
 			
+			document.getElementById("button1").disabled = false; 	
+			document.getElementById('button1').style.visibility="visible";	
 			
 			metritis_slider =0;
 			metritis_slider2 =0;
@@ -112,6 +134,9 @@ var StroopExperiment = function() {
                                      'hit':trust_response2,
                                      'rt':rt}
                                    );
+			
+			psiTurk.saveData();
+			
 
 			clear_stage();
 			remove_texttt();

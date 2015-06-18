@@ -100,14 +100,15 @@ strong {
   margin-top:30px;
 }
 
-#instr2_wrapper{
+#instr2_wrapper, #instr3_wrapper, #instr4_wrapper, #instr5_wrapper{
   overflow:hidden;
-  width:100%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top:30px;
 }
 
 
-#cbbbb, #cbbbb1, #instr2_cbbbb, #instr2_cbbbb1{
+#cbbbb, #cbbbb1{
   width:400px;
   float:left;
   text-align:center;

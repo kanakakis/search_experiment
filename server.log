@@ -152,152 +152,92 @@
 2015-05-22 20:06:43,490 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
 2015-05-22 20:06:43,545 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
 2015-05-22 20:10:45,382 improper_inputs (1013) {}
-2015-05-28 12:15:54,530 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-05-28 12:15:54,546 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-05-28 12:15:54,572 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-05-28 12:15:54,619 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-05-28 12:15:54,629 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-05-28 12:15:54,767 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-05-28 12:15:54,795 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-05-28 12:15:54,834 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-05-28 12:15:54,944 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-05-28 12:15:54,963 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-05-28 12:15:55,009 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-05-28 12:15:55,034 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-05-28 12:15:55,090 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-05-28 12:15:55,235 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-05-28 12:15:55,239 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-05-28 12:15:55,255 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-05-28 12:15:55,256 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-04 16:39:21,614 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-04 16:39:21,701 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-04 16:39:21,723 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-04 16:39:21,725 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-04 16:39:21,771 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-04 16:39:21,833 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-04 16:39:21,926 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-04 16:39:21,936 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-04 16:39:21,971 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-04 16:39:21,993 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-04 16:39:22,096 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-04 16:39:22,128 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-04 16:39:22,159 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-04 16:39:22,170 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-04 16:39:22,185 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-04 16:39:22,191 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-04 16:39:22,224 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-11 13:23:01,445 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-11 13:23:01,537 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-11 13:23:01,602 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-11 13:23:01,664 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-11 13:23:01,721 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-11 13:23:01,778 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-11 13:23:01,867 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-11 13:23:01,942 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-11 13:23:01,999 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-11 13:23:02,057 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-11 13:23:02,104 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-11 13:23:02,154 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-11 13:23:02,233 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-11 13:23:02,268 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-11 13:23:02,373 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-11 13:23:02,374 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-11 13:23:02,436 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-11 13:43:20,206 Exception on /h1.jpg [GET]
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/usr/local/lib/python2.7/dist-packages/psiturk/experiment.py", line 665, in regularpage
-    return render_template(pagename)
-  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 127, in render_template
-    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
-  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 830, in get_or_select_template
-    return self.get_template(template_name_or_list, parent, globals)
-  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 791, in get_template
-    return self._load_template(name, self.make_globals(globals))
-  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 765, in _load_template
-    template = self.loader.load(self, name, globals)
-  File "/usr/local/lib/python2.7/dist-packages/jinja2/loaders.py", line 113, in load
-    source, filename, uptodate = self.get_source(environment, name)
-  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 64, in get_source
-    raise TemplateNotFound(template)
-TemplateNotFound: h1.jpg
-2015-06-11 13:43:27,123 Exception on /h1.jpg [GET]
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/usr/local/lib/python2.7/dist-packages/psiturk/experiment.py", line 665, in regularpage
-    return render_template(pagename)
-  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 127, in render_template
-    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
-  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 830, in get_or_select_template
-    return self.get_template(template_name_or_list, parent, globals)
-  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 791, in get_template
-    return self._load_template(name, self.make_globals(globals))
-  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 765, in _load_template
-    template = self.loader.load(self, name, globals)
-  File "/usr/local/lib/python2.7/dist-packages/jinja2/loaders.py", line 113, in load
-    source, filename, uptodate = self.get_source(environment, name)
-  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 64, in get_source
-    raise TemplateNotFound(template)
-TemplateNotFound: h1.jpg
-2015-06-11 13:48:07,095 Exception on /h1.jpg [GET]
-Traceback (most recent call last):
-  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "/usr/local/lib/python2.7/dist-packages/psiturk/experiment.py", line 665, in regularpage
-    return render_template(pagename)
-  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 127, in render_template
-    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
-  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 830, in get_or_select_template
-    return self.get_template(template_name_or_list, parent, globals)
-  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 791, in get_template
-    return self._load_template(name, self.make_globals(globals))
-  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 765, in _load_template
-    template = self.loader.load(self, name, globals)
-  File "/usr/local/lib/python2.7/dist-packages/jinja2/loaders.py", line 113, in load
-    source, filename, uptodate = self.get_source(environment, name)
-  File "/usr/local/lib/python2.7/dist-packages/flask/templating.py", line 64, in get_source
-    raise TemplateNotFound(template)
-TemplateNotFound: h1.jpg
-2015-06-15 13:25:21,181 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-15 13:25:21,290 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-15 13:25:21,364 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-15 13:25:21,416 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-15 13:25:21,447 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-15 13:25:21,486 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-15 13:25:21,542 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-15 13:25:21,561 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-15 13:25:21,567 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-15 13:25:21,686 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-15 13:25:21,753 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-15 13:25:21,766 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-15 13:25:21,818 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-15 13:25:21,861 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-15 13:25:21,877 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-15 13:25:21,903 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
-2015-06-15 13:25:21,956 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 12:21:11,955 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 12:21:11,964 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 12:21:12,058 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 12:21:12,160 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 12:21:12,184 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 12:21:12,299 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 12:21:12,313 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 12:21:12,418 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 12:21:12,441 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 12:21:12,571 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 12:21:12,610 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 12:21:12,634 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 12:21:12,657 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 12:21:12,728 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 12:21:12,797 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 12:21:12,854 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 12:21:12,902 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:28:11,146 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:28:11,146 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:28:11,202 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:28:11,275 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:28:11,363 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:28:11,385 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:28:11,410 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:28:11,521 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:28:11,577 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:28:11,627 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:28:11,644 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:28:11,666 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:28:11,792 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:28:11,814 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:28:11,906 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:28:11,938 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:28:12,027 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:52:49,154 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:52:49,208 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:52:49,253 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:52:49,336 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:52:49,463 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:52:49,476 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:52:49,491 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:52:49,597 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:52:49,599 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:52:49,676 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:52:49,749 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:52:49,836 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:52:49,871 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:52:49,996 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:52:50,023 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:52:50,057 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 15:52:50,137 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:00:27,654 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:00:27,746 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:00:27,777 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:00:27,842 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:00:27,909 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:00:27,994 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:00:28,003 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:00:28,078 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:00:28,131 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:00:28,220 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:00:28,244 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:00:28,298 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:00:28,303 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:00:28,473 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:00:28,500 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:00:28,537 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:00:28,542 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:00:32,601 browser_type_not_allowed (1014) {'assignmentId': [u'debugZT6NTA'], 'workerId': [u'debugRRHCWN'], 'hitId': [u'debug6RYN8J'], 'mode': [u'debug']}
+2015-06-18 16:00:44,117 browser_type_not_allowed (1014) {'assignmentId': [u'debugZT6NTA'], 'workerId': [u'debugRRHCWN'], 'hitId': [u'debug6RYN8J'], 'mode': [u'debug']}
+2015-06-18 16:01:02,870 browser_type_not_allowed (1014) {'assignmentId': [u'debugZT6NTA'], 'workerId': [u'debugRRHCWN'], 'hitId': [u'debug6RYN8J'], 'mode': [u'debug']}
+2015-06-18 16:02:43,262 browser_type_not_allowed (1014) {'assignmentId': [u'debugN5SN0E'], 'workerId': [u'debugDS5E82'], 'hitId': [u'debugT70HJ6'], 'mode': [u'debug']}
+2015-06-18 16:11:18,128 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:11:18,189 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:11:18,237 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:11:18,362 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:11:18,395 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:11:18,450 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:11:18,484 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:11:18,541 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:11:18,626 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:11:18,651 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:11:18,739 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:11:18,813 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:11:18,828 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:11:18,881 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:11:18,947 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:11:18,958 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-06-18 16:11:19,043 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js

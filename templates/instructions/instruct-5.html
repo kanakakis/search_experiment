@@ -1,0 +1,170 @@
+<div id="container-instructions">
+
+    <h1>Instructions</h1>
+
+    <hr>
+
+    <div class="instructions well">
+
+        <p>
+            This is the second page of instructions.
+        </p>
+
+        <p>
+            Instructions for a success
+
+
+		<div id="instr5_headerdiv" align="center">
+			<svg width="180" height="150" id="instr5_headersvg"></svg>
+		</div>
+		
+		<div align="center">
+			<button type="button"  id="instr5_button1" onclick="instr5_mult_func();"  >Search</button>
+		</div>
+
+		<BR><BR>
+
+
+		<div id="instr5_wrapper" align="center">
+
+		  <div id="instr5_cbbbb" >
+	              <svg id="instr5_stagesvg2" width="264" height="288"></svg>
+
+                      <div id="instr5_radio" align="center">
+				<input type="radio" id="instr5_radio1"  name="decide" value="relevant"  onclick="alert('This was not a right answer, please try again');" >Relevant 
+				<input type="radio" id="instr5_radio2" name="decide" value="irrelevant" onclick= "instr5_enable_next();">Irrelevant
+		      </div>
+			<BR>
+		      <input type="range" id="instr5_sliderBar" min="0" max="100" step="1" value="50"  onChange="instr5_mult_func_slider(this.value);"/>
+		      <div id="instr5_puttext2"></div>
+		  </div>
+
+		</div>
+		
+
+		<BR><BR>
+			
+		 
+
+                
+        </p>
+
+
+        <script type="text/javascript">
+        //console.log(psiTurk.getInstructionIndicator())
+        </script>
+
+    </div>
+
+    <hr>
+
+    <div class="instructionsnav">
+        <div class="row">
+            <div class="col-xs-2">
+                <button type="button" id="next" value="next" class="btn btn-primary btn-lg previous">
+                <span class="glyphicon glyphicon-arrow-left"></span> Previous
+                </button>
+            </div>
+            <div class="col-xs-8">
+            </div>
+            <div class="col-xs-2">
+                <button type="button" id="next5" value="next" class="btn btn-primary btn-lg continue">
+                Next <span class="glyphicon glyphicon-arrow-right"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+		<script>
+
+	
+
+		document.getElementById("next5").disabled = true; 
+
+		document.getElementById("instr5_radio").style.visibility="hidden";
+		document.getElementById("instr5_sliderBar").style.visibility="hidden";
+		document.getElementById("instr5_sliderBar").disabled = true;
+		
+
+		
+		//show the main figure
+			d3.select("#instr5_headersvg")
+				.append("image")
+				.attr("id","instr5_hdr_img")
+				.attr("x", 0)
+				.attr("y", 0)
+				.attr("width", 200)
+				.attr("height", 200)
+				.attr("xlink:href", "../../static/images/h1.jpg");
+			
+
+		
+
+		var instr5_enable_next = function() { 
+			
+			
+			document.getElementById("instr5_radio1").disabled = true; 
+			document.getElementById("instr5_radio2").disabled = true; 
+
+			document.getElementById("instr5_sliderBar").style.visibility="visible";
+			document.getElementById("instr5_sliderBar").disabled = false; 
+			alert('This was  a right answer, you may now continue:\n Please respond how your trust on system changed after this outcome, using the slidebar below');
+		};
+
+
+	//show the two other figures
+	var instr5_mult_func = function() {
+
+                
+		d3.select("#instr5_stagesvg2")
+				.append("image")
+				.attr("id","instr5_img2")
+				.attr("x", 0)
+				.attr("y", 0)
+				.attr("width", 264)
+				.attr("height", 288)
+				.attr("xlink:href", "../../static/images/a6.jpg");
+
+		
+		
+		document.getElementById("instr5_button1").disabled = true; 
+	
+		
+		document.getElementById("instr5_radio").style.visibility="visible";
+		
+		
+		
+	};
+
+	var instr5_mult_func_slider = function(vts) {
+		document.getElementById("next5").disabled = false; 
+
+		instr5_showSliderValue2(document.getElementById("instr5_sliderBar").value);
+		document.getElementById("instr5_sliderBar").disabled = true; 
+
+
+		//success and trust increase
+		if (document.getElementById("instr5_sliderBar").value < 50) {
+			alert('Your response indicates a trust decrease after a failure, which is an EXPECTED result.\n\n You may now continue in the next page of instractions:\n Please click the "Next" button below.');
+
+		}
+
+		if (document.getElementById("instr5_sliderBar").value >= 50) {
+			alert('Your response indicates a trust increase after a failure, which is an UNEXPECTED result. \n\n You may now continue in the next page of instractions:\n Please click the "Next" button below.');
+		}
+	};
+
+	var instr5_showSliderValue2 = function(instr5_text22) {
+		
+		d3.select("#instr5_puttext2")
+		  .append("div")
+		  .attr("id","instr5_texttt2")
+		  .text(instr5_text22);
+	};
+
+
+	   </script>
