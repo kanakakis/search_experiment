@@ -15,7 +15,7 @@
 
 
 		<div id="instr5_headerdiv" align="center">
-			<svg width="180" height="150" id="instr5_headersvg"></svg>
+			<svg width="200" height="180" id="instr5_headersvg"></svg>
 		</div>
 		
 		<div align="center">
@@ -35,6 +35,9 @@
 				<input type="radio" id="instr5_radio2" name="decide" value="irrelevant" onclick= "instr5_enable_next();">Irrelevant
 		      </div>
 			<BR>
+
+		      <div id="instr5_question11" width="350"> </div>
+
 		      <input type="range" id="instr5_sliderBar" min="0" max="100" step="1" value="50"  onChange="instr5_mult_func_slider(this.value);"/>
 		      <div id="instr5_puttext2"></div>
 		  </div>
@@ -112,6 +115,12 @@
 
 			document.getElementById("instr5_sliderBar").style.visibility="visible";
 			document.getElementById("instr5_sliderBar").disabled = false; 
+
+			d3.select("#instr5_question11")
+				  .append("div")
+				  .attr("id","instr5_texttt_q11")
+				  .html ('In your opinion, to what extent does ACME <br>  search engine <B> record  your search history </B> <br> (including keywords revealing your health status) <br> 						 to deliver personalised advertising?');
+
 			alert('This was  a right answer, you may now continue:\n Please respond how your trust on system changed after this outcome, using the slidebar below');
 		};
 
@@ -149,12 +158,12 @@
 
 		//success and trust increase
 		if (document.getElementById("instr5_sliderBar").value < 50) {
-			alert('Your response indicates a trust decrease after a failure, which is an EXPECTED result.\n\n You may now continue in the next page of instractions:\n Please click the "Next" button below.');
+			alert('Your response indicates a distrust decrease after an irrelevant advertishment, which is not surprising.\n\n You may now continue in the next page of instractions:\n Please click the "Next" button below.');
 
 		}
 
 		if (document.getElementById("instr5_sliderBar").value >= 50) {
-			alert('Your response indicates a trust increase after a failure, which is an UNEXPECTED result. \n\n You may now continue in the next page of instractions:\n Please click the "Next" button below.');
+			alert('Your response indicates a distrust increase after an irrelevant advertishment, which is interesting. \n\n You may now continue in the next page of instractions:\n Please click the "Next" button below.');
 		}
 	};
 

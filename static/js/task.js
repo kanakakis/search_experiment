@@ -14,10 +14,10 @@ var mycounterbalance = counterbalance;  // they tell you which condition you hav
 // All pages to be loaded
 var pages = [
 	"instructions/instruct-1.html",
-	//"instructions/instruct-2.html",
-	//"instructions/instruct-3.html",
-	//"instructions/instruct-4.html",
-	//"instructions/instruct-5.html",
+	"instructions/instruct-2.html",
+	"instructions/instruct-3.html",
+	"instructions/instruct-4.html",
+	"instructions/instruct-5.html",
 	"instructions/instruct-ready.html",
 	"stage.html",
 	"postquestionnaire.html"
@@ -27,10 +27,10 @@ psiTurk.preloadPages(pages);
 
 var instructionPages = [ // add as a list as many pages as you like
 	"instructions/instruct-1.html",
-	//"instructions/instruct-2.html",
-	//"instructions/instruct-3.html",
-	//"instructions/instruct-4.html",
-	//"instructions/instruct-5.html",
+	"instructions/instruct-2.html",
+	"instructions/instruct-3.html",
+	"instructions/instruct-4.html",
+	"instructions/instruct-5.html",
 	"instructions/instruct-ready.html"
 ];
 
@@ -50,19 +50,38 @@ var instructionPages = [ // add as a list as many pages as you like
 ********************/
 var StroopExperiment = function() {
 
+
+
 	var wordon, // time word is presented
 	    listening = false;
 
 	
 
 	var next = function() {
-		if (metritis==5) {
+		if (metritis==21) {
 			finish();
 		}
 
+		show_text_trial_number("You are currently at trial: <font color='red'> "   + metritis +  "  </font> / 20");
+
 		if (metritis==0) {
 
-			
+
+			//var pos_left = document.getElementById("stagesvg2").offsetLeft;
+			//var pos_top = document.getElementById("stagesvg2").offsetTop;
+
+			//var pos_left2 = document.getElementById("stagesvg3").offsetLeft;
+			//var pos_top2 = document.getElementById("stagesvg3").offsetTop;
+    			//alert("Top: " + pos_top + " Left: " + pos_left + " Left: "+ pos_left2 + " Left: "+ pos_top2);
+
+			//document.getElementById("question11").style.position = 'absolute';
+			//document.getElementById("question11").attr('x', pos_left);
+			//document.getElementById("question11").attr('y', pos_top);	
+
+			//d3.select("#question11").attr('x', pos_left);
+
+			show_text_instr("Please respond your initial trust, based on your previous experience with similar systems");
+
 			document.getElementById("button1").disabled = true; 	
 			document.getElementById('button1').style.visibility="hidden";	
 		
@@ -72,16 +91,20 @@ var StroopExperiment = function() {
 			show_q1();
 			show_q2();
 
+			show_text_next_trial ();
+
 			metritis=metritis+1;
 
 		}	
 		else {
+
+			
+
+			show_text_instr ("Click the Search Button below to see the results!!");
 			
 			document.getElementById("button1").disabled = false; 	
 			document.getElementById('button1').style.visibility="visible";	
 			
-			metritis_slider =0;
-			metritis_slider2 =0;
 			
 			
 			show_hdr_img(header_figure[metritis_hdr]);
@@ -153,6 +176,8 @@ var StroopExperiment = function() {
 	
 	
 	var clear_stage = function() {
+		d3.select("#texttt_trialn").remove();
+		d3.select("#texttt_clbut").remove();
 		d3.select("#texttt_nt").remove();
 		d3.select("#hdr_img").remove();
 		d3.select("#imggggg").remove();
@@ -165,6 +190,7 @@ var StroopExperiment = function() {
 	
 	// Load the stage.html snippet into the body of the page
 	psiTurk.showPage('stage.html');
+	
 
 	// Register the response handler that is defined above to handle any
 	// key down events.
@@ -200,41 +226,81 @@ var Questionnaire = function() {
 		var met1 = document.getElementById("engagement").value;
 		var met2 = document.getElementById("difficulty").value;
 
+		var suban11 = document.getElementById("subq11").value;
+		var suban12 = document.getElementById("subq12").value;
+		var suban13 = document.getElementById("subq13").value;
+		
+
+		var suban21 = document.getElementById("subq21").value;
+		var suban22 = document.getElementById("subq22").value;
+		var suban23 = document.getElementById("subq23").value;
+		var suban24 = document.getElementById("subq24").value;
+
+		var suban31 = document.getElementById("subq31").value;
+		var suban32 = document.getElementById("subq32").value;
+		var suban33 = document.getElementById("subq33").value;
+		var suban34 = document.getElementById("subq34").value;
+		var suban35 = document.getElementById("subq35").value;
+	
+		var suban41 = document.getElementById("subq41").value;
+		var suban42 = document.getElementById("subq42").value;
+		var suban43 = document.getElementById("subq43").value;
+		var suban44 = document.getElementById("subq44").value;
+		var suban45 = document.getElementById("subq45").value;	
+		var suban46 = document.getElementById("subq46").value;
+		var suban47 = document.getElementById("subq47").value;
+
+		var suban51 = document.getElementById("subq51").value;
+		var suban52 = document.getElementById("subq52").value;
+		var suban53 = document.getElementById("subq53").value;
+		var suban54 = document.getElementById("subq54").value;
+
+
+		var an6 = document.getElementById("q6").value;
+		var an7 = document.getElementById("q7").value;
+		var an8 = document.getElementById("q8").value;
+		var an9 = document.getElementById("q9").value;
+		var an10 = document.getElementById("q10").value;
 		var an11 = document.getElementById("q11").value;
 		var an12 = document.getElementById("q12").value;
 		var an13 = document.getElementById("q13").value;
-		
 
+
+		var an14 = document.getElementById("q14").value;
+		var an15 = document.getElementById("q15").value;
+		var an16 = document.getElementById("q16").value;
+		var an17 = document.getElementById("q17").value;
+		var an18 = document.getElementById("q18").value;
+		var an19 = document.getElementById("q19").value;
+		var an20 = document.getElementById("q20").value;
 		var an21 = document.getElementById("q21").value;
+
 		var an22 = document.getElementById("q22").value;
 		var an23 = document.getElementById("q23").value;
 		var an24 = document.getElementById("q24").value;
+		var an25 = document.getElementById("q25").value;
+		var an26 = document.getElementById("q26").value;
+		var an27 = document.getElementById("q27").value;
 
+		var an28 = document.getElementById("q28").value;
+		var an29 = document.getElementById("q29").value;
+		var an30 = document.getElementById("q30").value;
 		var an31 = document.getElementById("q31").value;
 		var an32 = document.getElementById("q32").value;
 		var an33 = document.getElementById("q33").value;
 		var an34 = document.getElementById("q34").value;
 		var an35 = document.getElementById("q35").value;
-	
-		var an41 = document.getElementById("q41").value;
-		var an42 = document.getElementById("q42").value;
-		var an43 = document.getElementById("q43").value;
-		var an44 = document.getElementById("q44").value;
-		var an45 = document.getElementById("q45").value;	
-		var an46 = document.getElementById("q46").value;
-		var an47 = document.getElementById("q47").value;
-
-		var an51 = document.getElementById("q51").value;
-		var an52 = document.getElementById("q52").value;
-		var an53 = document.getElementById("q53").value;
-		var an54 = document.getElementById("q54").value;
 
 
-		psiTurk.recordTrialData({'phase':met1, 'status':met2, 'an11':an11, 'an12':an12, 'an13':an13, 
-								      'an21':an21, 'an22':an22, 'an23':an23, 'an24':an24, 
-								      'an31':an31, 'an32':an32, 'an33':an33, 'an34':an34, 'an35':an35,
-								      'an41':an41, 'an42':an42, 'an43':an43, 'an44':an44, 'an45':an45, 'an46':an46, 'an47':an47,
-								      'an51':an51, 'an52':an52, 'an53':an53, 'an54':an54});
+		psiTurk.recordTrialData({'phase':met1, 'status':met2, 'suban11':suban11, 'suban12':suban12, 'suban13':suban13, 
+								      'suban21':suban21, 'suban22':suban22, 'suban23':suban23, 'suban24':suban24, 
+								      'suban31':suban31, 'suban32':suban32, 'suban33':suban33, 'suban34':suban34, 'suban35':suban35,
+								   'suban41':suban41, 'suban42':suban42, 'suban43':suban43, 'suban44':suban44, 'suban45':suban45, 'suban46':suban46,'suban47':suban47,
+								      'suban51':suban51, 'suban52':suban52, 'suban53':suban53, 'suban54':suban54,
+								      'an6':an6, 'an7':an7, 'an8':an8, 'an9':an9, 'an10':an10, 'an11':an11, 'an12':an12, 'an13':an13,
+								      'an14':an14, 'an15':an15, 'an16':an16, 'an17':an17, 'an18':an18, 'an19':an19, 'an20':an20, 'an21':an21,
+								      'an22':an22, 'an23':an23, 'an24':an24, 'an25':an25, 'an26':an26, 'an27':an27,
+								      'an28':an28, 'an29':an29, 'an30':an30, 'an31':an31, 'an32':an32, 'an33':an33, 'an34':an34, 'an35':an35});
 
 		$('textarea').each( function(i, val) {
 			psiTurk.recordUnstructuredData(this.id, this.value);
@@ -266,7 +332,7 @@ var Questionnaire = function() {
 	// Load the questionnaire snippet 
 	psiTurk.showPage('postquestionnaire.html');
 	psiTurk.recordTrialData({'phase':'postquestionnaire', 'status':'begin'});
-//, 'status2':'begin2'
+
 	
 	$("#next").click(function () {
 	    record_responses();

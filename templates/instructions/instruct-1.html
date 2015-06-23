@@ -7,36 +7,32 @@
 	<div class="instructions well">
 
 	    <p>
-		    This is an experiment related to trust in online applications. <BR>
-		    You will see a sequence of 20 trials, related to a search engine which provides the results and also an advertishment.<BR>
-		    Then, you will respond the impact that the observed results had on you trust with respect to two factors<BR>
-		    In this first instuction page, our aim is to get familiarized with the search procees.<BR>
-		    As you can observe the search words are predetermined. So, you only have to press the "Search" button and see the results.
-			 
+		   This is an experiment related to trust in online applications. <BR>
+		   
+                   You will interact with a hypothetical search engine, called ACME, for 20 times. <BR>
+		   
+                   In each trial, you will be initially presented with a text box containing a predetermined keyword. As soon as you click on the Search button you will see: <BR>
+
+		   a) a figure on the left hand side representing the first page of the results to your query and <BR>
+		   b) an advertisement on the right hand side that may be related to the current query, the past ones, or one that is completely irrelevant <BR>
+		   c) two slide-bars on the page bottom. <BR>
+	
+		   After observing the search engine performance results and advertisement, please read the question above each slide-bar and provide your response by moving the cursors to the desired 			   locations. <BR>
+		   As soon as you leave the curser a number from 0 (far left) to 100 (far right) will appear. Those values represent your (current) trust / distrust level to the ACME search engine in 		   terms of its accuracy and confidentiality. You can either change your answers or proceed to the next trial by clicking on the Next button. <BR>
+
+		Please spend a few seconds at the keyword shown. Even though this is not a memory-related experiment, remembering the past keywords will help you in associating advertisements with past 			queries. <BR>
+
+		After interacting with the ACME search engine, you will be asked to answer a number of questions related to your personality and preferences. These answers will be used for research 			purposes only. Furthermore, these answers will be used to group you together with other participants that have similar answers and calculate the bonus that will be awarded to you. More 			specifically, you will have the chance to win an extra bonus if your answers during the last (20th) interaction with the ACME search engine is the closest one to the mean of the answers 		        in your group. 	<BR>
+		
+		The next instruction pages will help you get familiarized with the search process.
 	    </p>
 	    
+	    
 
-		<div id="instr1_headerdiv" align="center">
-			<svg width="180" height="150" id="instr1_headersvg"></svg>
-		</div>
-		
-		<div align="center">
-			<button type="button"  id="instr1_button1"  onclick="instr1_enable_next();" >Search</button>
-		</div>
-
-	    <p>
-	    	Be helpful, clear.
-        </p>
-
-        <p>
-        	Use images and concrete examples.
-        </p>
 
 	    <script type="text/javascript">
 	    //console.log(psiTurk.getInstructionIndicator())
 	    </script>
-
-	
 
 	</div>
 
@@ -59,32 +55,3 @@
     </div>
 
 </div>
-
-		<script>
-
-		document.getElementById("next").disabled = true; 
-
-		//instr1_show_hdr_img("h1.jpg");
-		//var instr1_show_hdr_img = function(instr1_wh_to_sh_hdr) {
-	
-			d3.select("#instr1_headersvg")
-				.append("image")
-				.attr("id","instr1_hdr_img")
-				.attr("x", 0)
-				.attr("y", 0)
-				.attr("width", 200)
-				.attr("height", 200)
-				//.attr("xlink:href", "h1.jpg");
-				.attr("xlink:href", "../../static/images/h1.jpg");
-			//};
-
-		//document.getElementById("instr1_button1").disabled = true; 
-
-		var instr1_enable_next = function(){
-			document.getElementById("next").disabled = false; 
-		};
-
-	   </script>
-
-
-

@@ -5,13 +5,17 @@
 		
 
 		
-		<div id="puttext_nt"></div>
+		<div id="puttext_trialnum"></div>
 		
 
 		<div id="headerdiv">
-			<svg width="180" height="150" id="headersvg"></svg>
+			<svg width="200" height="180" id="headersvg"></svg>
 		</div>
-		<h1>Click the Search Button below to see the results!!</h1>
+
+		
+
+		<div id="puttext_clbut"></div>
+		
 		<button type="button"  id="button1" onclick="mult_func();" >Search</button>
 
 
@@ -34,6 +38,8 @@
 		  </div>
                 </div>
 
+		<div id="puttext_nt"></div>
+
 		
 
 
@@ -44,20 +50,30 @@
 
 <script>
 
-var metritis_slider=0;
+
 
 var metritis_hdr=0;
 var metritis=0;
 
 
 
-var header_figure = ["static/images/h1.jpg", "static/images/h2.jpg", "static/images/h3.jpg", "static/images/h4.jpg"];
+var header_figure = ["static/images/h1.jpg", "static/images/h2.jpg", "static/images/h3.jpg", "static/images/h4.jpg", "static/images/h5.jpg", "static/images/h6.jpg", "static/images/h7.jpg",
+"static/images/h8.jpg", "static/images/h9.jpg", "static/images/h10.jpg", "static/images/h11.jpg", "static/images/h12.jpg", "static/images/h13.jpg", "static/images/h14.jpg", "static/images/h15.jpg",
+"static/images/h16.jpg", "static/images/h17.jpg", "static/images/h18.jpg", "static/images/h19.jpg", "static/images/h20.jpg"];
 
-var figure_names = ["static/images/p1.jpg", "static/images/p2.jpg", "static/images/p2.jpg", "static/images/p2.jpg"];
+var figure_names = ["static/images/p1.jpg", "static/images/p2.jpg", "static/images/p2.jpg", "static/images/p2.jpg", "static/images/p2.jpg", "static/images/p2.jpg", "static/images/p2.jpg", 
+"static/images/p2.jpg", "static/images/p2.jpg", "static/images/p2.jpg", "static/images/p2.jpg", "static/images/p2.jpg", "static/images/p2.jpg", "static/images/p2.jpg", "static/images/p2.jpg", 
+"static/images/p2.jpg", "static/images/p2.jpg", "static/images/p2.jpg", "static/images/p2.jpg", "static/images/p2.jpg"];
 
-var figure_names2 = ["static/images/a1.jpg", "static/images/a2.jpg", "static/images/a3.jpg", "static/images/a4.jpg"];
+var figure_names2 = ["static/images/a1.jpg", "static/images/a2.jpg", "static/images/a3.jpg", "static/images/a4.jpg", "static/images/a5.jpg", "static/images/a6.jpg", "static/images/a7.jpg",
+"static/images/a8.jpg", "static/images/a9.jpg", "static/images/a10.jpg", "static/images/a11.jpg", "static/images/a12.jpg", "static/images/a13.jpg", "static/images/a14.jpg", "static/images/a15.jpg",
+"static/images/a16.jpg", "static/images/a17.jpg", "static/images/a18.jpg", "static/images/a19.jpg", "static/images/a20.jpg"];
 	
 
+
+
+
+	
 
 	var show_hdr_img = function(wh_to_sh_hdr) {
 
@@ -187,6 +203,22 @@ var figure_names2 = ["static/images/a1.jpg", "static/images/a2.jpg", "static/ima
 	//--------------------------------functions for the slider--------------------------------------//
 
 	
+	var show_text_trial_number = function(wh_trial) {
+		
+		d3.select("#puttext_trialnum")
+		  .append("div")
+		  .attr("id","texttt_trialn")
+		  .html(wh_trial);
+	};
+
+	var show_text_instr = function(wh_to_disp) {
+		
+		d3.select("#puttext_clbut")
+		  .append("div")
+		  .attr("id","texttt_clbut")
+		  .html(wh_to_disp);
+	};
+
    
 	
 
@@ -198,4 +230,5 @@ var figure_names2 = ["static/images/a1.jpg", "static/images/a2.jpg", "static/ima
 		  .html('<font color="red" > When you are ready, please press Enter to continue to the next trial </font>');
 	};
 
+	
 </script>

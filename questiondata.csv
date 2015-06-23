@@ -10,30 +10,93 @@ debug8W22D9:debug7NZER7,difficulty,5
 debug8W22D9:debug7NZER7,engagement,5
 debugRRETC7:debugRPWFIA,difficulty,5
 debugRRETC7:debugRPWFIA,engagement,5
-debugF86FVX:debug0P36DM,difficulty,5
-debugF86FVX:debug0P36DM,engagement,5
-debugGBMLG9:debugWXCH03,q46,3
-debugGBMLG9:debugWXCH03,q47,3
-debugGBMLG9:debugWXCH03,q44,3
-debugGBMLG9:debugWXCH03,q45,3
-debugGBMLG9:debugWXCH03,q42,3
-debugGBMLG9:debugWXCH03,q13,3
-debugGBMLG9:debugWXCH03,q41,3
-debugGBMLG9:debugWXCH03,q34,3
-debugGBMLG9:debugWXCH03,q21,3
-debugGBMLG9:debugWXCH03,q22,3
-debugGBMLG9:debugWXCH03,q23,3
-debugGBMLG9:debugWXCH03,q24,3
-debugGBMLG9:debugWXCH03,q43,3
-debugGBMLG9:debugWXCH03,engagement,5
-debugGBMLG9:debugWXCH03,q51,3
-debugGBMLG9:debugWXCH03,q53,3
-debugGBMLG9:debugWXCH03,q52,3
-debugGBMLG9:debugWXCH03,q54,3
-debugGBMLG9:debugWXCH03,q33,3
-debugGBMLG9:debugWXCH03,q32,3
-debugGBMLG9:debugWXCH03,q31,3
-debugGBMLG9:debugWXCH03,q11,3
-debugGBMLG9:debugWXCH03,q35,3
-debugGBMLG9:debugWXCH03,q12,3
-debugGBMLG9:debugWXCH03,difficulty,5
+debugWMS7V2:debugED5OO4,difficulty,5
+debugWMS7V2:debugED5OO4,engagement,5
+debugP1PHWC:debugMZV8FZ,subq41,-- select an option --
+debugP1PHWC:debugMZV8FZ,subq43,-- select an option --
+debugP1PHWC:debugMZV8FZ,subq24,3
+debugP1PHWC:debugMZV8FZ,subq23,3
+debugP1PHWC:debugMZV8FZ,subq22,3
+debugP1PHWC:debugMZV8FZ,subq21,3
+debugP1PHWC:debugMZV8FZ,subq46,-- select an option --
+debugP1PHWC:debugMZV8FZ,q34,1
+debugP1PHWC:debugMZV8FZ,q20,1
+debugP1PHWC:debugMZV8FZ,q21,3
+debugP1PHWC:debugMZV8FZ,subq42,-- select an option --
+debugP1PHWC:debugMZV8FZ,q19,3
+debugP1PHWC:debugMZV8FZ,q25,3
+debugP1PHWC:debugMZV8FZ,q26,1
+debugP1PHWC:debugMZV8FZ,q27,3
+debugP1PHWC:debugMZV8FZ,subq45,-- select an option --
+debugP1PHWC:debugMZV8FZ,subq44,-- select an option --
+debugP1PHWC:debugMZV8FZ,subq47,-- select an option --
+debugP1PHWC:debugMZV8FZ,q6,1
+debugP1PHWC:debugMZV8FZ,q9,3
+debugP1PHWC:debugMZV8FZ,subq12,3
+debugP1PHWC:debugMZV8FZ,engagement,5
+debugP1PHWC:debugMZV8FZ,subq13,3
+debugP1PHWC:debugMZV8FZ,subq52,3
+debugP1PHWC:debugMZV8FZ,subq53,3
+debugP1PHWC:debugMZV8FZ,subq51,3
+debugP1PHWC:debugMZV8FZ,subq54,3
+debugP1PHWC:debugMZV8FZ,q15,3
+debugP1PHWC:debugMZV8FZ,difficulty,5
+debugP1PHWC:debugMZV8FZ,q31,3
+debugP1PHWC:debugMZV8FZ,q11,3
+debugP1PHWC:debugMZV8FZ,q10,3
+debugP1PHWC:debugMZV8FZ,q13,3
+debugP1PHWC:debugMZV8FZ,q12,1
+debugP1PHWC:debugMZV8FZ,subq31,3
+debugP1PHWC:debugMZV8FZ,subq32,3
+debugP1PHWC:debugMZV8FZ,subq33,3
+debugP1PHWC:debugMZV8FZ,subq34,3
+debugP1PHWC:debugMZV8FZ,subq35,3
+debugP1PHWC:debugMZV8FZ,subq11,3
+debugP1PHWC:debugMZV8FZ,q33,3
+debugP1PHWC:debugMZV8FZ,q32,1
+debugP1PHWC:debugMZV8FZ,q14,3
+debugP1PHWC:debugMZV8FZ,q35,1
+debug87XBDY:debug6TMUML,subq41,-- select an option --
+debug87XBDY:debug6TMUML,subq43,-- select an option --
+debug87XBDY:debug6TMUML,subq24,3
+debug87XBDY:debug6TMUML,subq23,3
+debug87XBDY:debug6TMUML,subq22,3
+debug87XBDY:debug6TMUML,subq21,3
+debug87XBDY:debug6TMUML,subq46,-- select an option --
+debug87XBDY:debug6TMUML,q34,1
+debug87XBDY:debug6TMUML,q20,1
+debug87XBDY:debug6TMUML,q21,3
+debug87XBDY:debug6TMUML,subq42,-- select an option --
+debug87XBDY:debug6TMUML,q19,3
+debug87XBDY:debug6TMUML,q25,3
+debug87XBDY:debug6TMUML,q26,1
+debug87XBDY:debug6TMUML,q27,3
+debug87XBDY:debug6TMUML,subq45,-- select an option --
+debug87XBDY:debug6TMUML,subq44,-- select an option --
+debug87XBDY:debug6TMUML,subq47,-- select an option --
+debug87XBDY:debug6TMUML,q6,1
+debug87XBDY:debug6TMUML,q9,3
+debug87XBDY:debug6TMUML,subq12,3
+debug87XBDY:debug6TMUML,engagement,5
+debug87XBDY:debug6TMUML,subq13,3
+debug87XBDY:debug6TMUML,subq52,3
+debug87XBDY:debug6TMUML,subq53,3
+debug87XBDY:debug6TMUML,subq51,3
+debug87XBDY:debug6TMUML,subq54,3
+debug87XBDY:debug6TMUML,q15,3
+debug87XBDY:debug6TMUML,difficulty,5
+debug87XBDY:debug6TMUML,q31,3
+debug87XBDY:debug6TMUML,q11,3
+debug87XBDY:debug6TMUML,q10,3
+debug87XBDY:debug6TMUML,q13,3
+debug87XBDY:debug6TMUML,q12,1
+debug87XBDY:debug6TMUML,subq31,3
+debug87XBDY:debug6TMUML,subq32,3
+debug87XBDY:debug6TMUML,subq33,3
+debug87XBDY:debug6TMUML,subq34,3
+debug87XBDY:debug6TMUML,subq35,3
+debug87XBDY:debug6TMUML,subq11,3
+debug87XBDY:debug6TMUML,q33,3
+debug87XBDY:debug6TMUML,q32,1
+debug87XBDY:debug6TMUML,q14,3
+debug87XBDY:debug6TMUML,q35,1

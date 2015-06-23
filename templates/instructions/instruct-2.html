@@ -15,7 +15,7 @@
 
 
 		<div id="instr2_headerdiv" align="center">
-			<svg width="180" height="150" id="instr2_headersvg"></svg>
+			<svg width="200" height="180" id="instr2_headersvg"></svg>
 		</div>
 		
 		<div align="center">
@@ -35,6 +35,9 @@
 				<input type="radio" id="instr2_radio2" name="decide" value="failure" onclick="alert('This was not a right answer, please try again');" >Failure
 		      </div>
 			<BR>
+
+			<div id="instr2_question11" width="350"> </div>
+
 		      <input type="range" id="instr2_sliderBar" min="0" max="100" step="1" value="50"  onChange="instr2_mult_func_slider(this.value);"/>
 		      <div id="instr2_puttext2"></div>
 		  </div>
@@ -112,6 +115,13 @@
 
 			document.getElementById("instr2_sliderBar").style.visibility="visible";
 			document.getElementById("instr2_sliderBar").disabled = false; 
+
+			d3.select("#instr2_question11")
+			  .append("div")
+			  .attr("id","instr2_texttt_q11")
+			  .html ('In your opinion, to what extent does ACME <br>   search engine will achieve to <B> provide the anticipated results at the first page </B>, <br> during your next 						search?');
+
+
 			alert('This was  a right answer, you may now continue:\n Please respond how your trust on system changed after this outcome, using the slidebar below');
 		};
 
@@ -149,12 +159,12 @@
 
 		//success and trust increase
 		if (document.getElementById("instr2_sliderBar").value >=50) {
-			alert('Your response indicates a trust increase after a success, which is an EXPECTED result.\n\n You may now continue in the next page of instractions:\n Please click the "Next" button below.');
+			alert('Your response indicates a trust increase after a success, which is not surprising.\n\n You may now continue in the next page of instructions:\n Please click the "Next" button below.');
 
 		}
 
 		if (document.getElementById("instr2_sliderBar").value < 50) {
-			alert('Your response indicates a trust decrease after a success, which is an UNEXPECTED result. \n\n You may now continue in the next page of instractions:\n Please click the "Next" button below.');
+			alert('Your response indicates a trust decrease after a success, which is interesting. \n\n You may now continue in the next page of instructions:\n Please click the "Next" button below.');
 		}
 	};
 
