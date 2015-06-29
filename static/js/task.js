@@ -60,7 +60,7 @@ var StroopExperiment = function() {
 	
 
 	var next = function() {
-		if (metritis==21) {
+		if (metritis==13) {
 			finish();
 		}
 
