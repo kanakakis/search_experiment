@@ -11,8 +11,8 @@
         </p>
 
         <p>
-            Instructions for a success
 
+		
 
 		<div id="instr2_headerdiv" align="center">
 			<svg width="200" height="180" id="instr2_headersvg"></svg>
@@ -22,9 +22,6 @@
 			<button type="button"  id="instr2_button1" onclick="instr2_mult_func();"  >Search</button>
 		</div>
 
-		<BR><BR>
-
-
 		<div id="instr2_wrapper" align="center">
 
 		  <div id="instr2_cbbbb" >
@@ -32,9 +29,13 @@
 
                       <div id="instr2_radio" align="center">
 				<input type="radio" id="instr2_radio1"  name="decide" value="success"  onclick="instr2_enable_next();" >Success 
-				<input type="radio" id="instr2_radio2" name="decide" value="failure" onclick="alert('This was not a right answer, please try again');" >Failure
+				<input type="radio" id="instr2_radio2" name="decide" value="failure" onclick="instr2_showinst('This was not a right answer, please try again');" >Failure
 		      </div>
 			<BR>
+
+		         Below, will appear the results of your actions and the instractions <BR>
+
+	       		 <div id="instr2_pt_result" align="center"></div> <BR>
 
 			<div id="instr2_question11" width="350"> </div>
 
@@ -93,6 +94,14 @@
 		document.getElementById("instr2_sliderBar").disabled = true;
 		
 
+
+		var instr2_showinst = function(instr2_si) {
+			
+			d3.select("#instr2_pt_result")
+			  .append("div")
+			  .attr("id","instr2_pt")
+			  .html(instr2_si);
+		};
 		
 		//show the main figure
 			d3.select("#instr2_headersvg")
@@ -121,8 +130,9 @@
 			  .attr("id","instr2_texttt_q11")
 			  .html ('In your opinion, to what extent does ACME <br>   search engine will achieve to <B> provide the anticipated results at the first page </B>, <br> during your next 						search?');
 
-
-			alert('This was  a right answer, you may now continue:\n Please respond how your trust on system changed after this outcome, using the slidebar below');
+			//Svinei to keimeno apo pi8ani lan8asmenio apantisi kai dinei to swsto
+			d3.select("#instr2_pt").remove();
+			instr2_showinst('This was  a <font color="red"> right </font> answer, you may now continue:\n Please respond how your trust on system changed after this outcome, using the slidebar below');
 		};
 
 
