@@ -15,7 +15,7 @@
 		
 
 		<div id="instr2_headerdiv" align="center">
-			<svg width="500" height="250" id="instr2_headersvg"></svg>
+			<svg width="500" height="150" id="instr2_headersvg"></svg>
 		</div>
 		
 		<div align="center">
@@ -33,9 +33,11 @@
 		      </div>
 			<BR>
 
-		         Below, will appear the results of your actions and the instractions <BR>
+			<div id="instr2_clbut"></div>
+		      
 
-	       		 <div id="instr2_pt_result" align="center"></div> <BR>
+
+			<textarea  rows="10" style="width: 600px;"  id="subdomaintwo" resize: none; disabled/>
 
 			<div id="instr2_question11" width="350"> </div>
 
@@ -93,14 +95,13 @@
 		document.getElementById("instr2_sliderBar").style.visibility="hidden";
 		document.getElementById("instr2_sliderBar").disabled = true;
 		
+		document.getElementById("subdomaintwo").style.visibility="hidden";
+
 
 
 		var instr2_showinst = function(instr2_si) {
 			
-			d3.select("#instr2_pt_result")
-			  .append("div")
-			  .attr("id","instr2_pt")
-			  .html(instr2_si);
+			document.getElementById("subdomaintwo").value = instr2_si;
 		};
 		
 		//show the main figure
@@ -110,7 +111,7 @@
 				.attr("x", 0)
 				.attr("y", 0)
 				.attr("width", 500)
-				.attr("height", 250)
+				.attr("height", 150)
 				.attr("xlink:href", "../../static/images/s1.jpg");
 			
 
@@ -124,6 +125,7 @@
 
 			document.getElementById("instr2_sliderBar").style.visibility="visible";
 			document.getElementById("instr2_sliderBar").disabled = false; 
+			
 
 			d3.select("#instr2_question11")
 			  .append("div")
@@ -131,8 +133,10 @@
 			  .html ('In your opinion, to what extent does ACME <br>   search engine will achieve to <B> provide the anticipated results at the first page </B>, <br> during your next 						search?');
 
 			//Svinei to keimeno apo pi8ani lan8asmenio apantisi kai dinei to swsto
-			d3.select("#instr2_pt").remove();
-			instr2_showinst('This was  a <font color="red"> right </font> answer, you may now continue:\n Please respond how your trust on system changed after this outcome, using the slidebar below');
+			
+	document.getElementById("subdomaintwo").value ="This was  a   right   answer, you may now continue: " + "\n" + "Please respond how your trust on system changed after this outcome, using the slidebar below";
+
+		
 		};
 
 
@@ -155,7 +159,12 @@
 	
 		
 		document.getElementById("instr2_radio").style.visibility="visible";
-		
+		document.getElementById("subdomaintwo").style.visibility="visible";
+
+		d3.select("#instr2_clbut")
+		  	.append("div")
+		 	 .attr("id","instr2tt_clbut")
+		  	.html("Below you may see the instractions, based on your actions");
 		
 		
 	};
@@ -169,12 +178,12 @@
 
 		//success and trust increase
 		if (document.getElementById("instr2_sliderBar").value >=50) {
-			alert('Your response indicates a trust increase after a success, which is not surprising.\n\n You may now continue in the next page of instructions:\n Please click the "Next" button below.');
+			document.getElementById("subdomaintwo").value += "\nYour response indicates a trust increase after a success, which is not surprising.\n\n You may now continue in the next page of instructions:\n Please click the 'Next' button below.";
 
 		}
 
 		if (document.getElementById("instr2_sliderBar").value < 50) {
-			alert('Your response indicates a trust decrease after a success, which is interesting. \n\n You may now continue in the next page of instructions:\n Please click the "Next" button below.');
+			document.getElementById("subdomaintwo").value += "\nYour response indicates a trust decrease after a success, which is interesting. \n\n You may now continue in the next page of instructions:\n Please click the 'Next' button below.";
 		}
 	};
 

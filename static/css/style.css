@@ -91,20 +91,20 @@ strong {
 
 
 #button1{
-  margin-top:20px;
+  margin-top:10px;
 }
 
 #wrapper{
   overflow:hidden;
   width:100%;
-  margin-top:30px;
+  margin-top:10px;
 }
 
 #instr2_wrapper, #instr3_wrapper, #instr4_wrapper, #instr5_wrapper{
   overflow:hidden;
   margin-left: auto;
   margin-right: auto;
-  margin-top:30px;
+  margin-top:10px;
 }
 
 

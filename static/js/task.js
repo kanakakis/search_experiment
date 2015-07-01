@@ -16,9 +16,9 @@ var pages = [
 	"instructions/instruct-1.html",
 	"instructions/instruct-1a.html",
 	"instructions/instruct-2.html",
-	"instructions/instruct-3.html",
-	"instructions/instruct-4.html",
-	"instructions/instruct-5.html",
+	//"instructions/instruct-3.html",
+	//"instructions/instruct-4.html",
+	//"instructions/instruct-5.html",
 	"instructions/instruct-ready.html",
 	"stage.html",
 	"postquestionnaire.html"
@@ -30,9 +30,9 @@ var instructionPages = [ // add as a list as many pages as you like
 	"instructions/instruct-1.html",
 	"instructions/instruct-1a.html",
 	"instructions/instruct-2.html",
-	"instructions/instruct-3.html",
-	"instructions/instruct-4.html",
-	"instructions/instruct-5.html",
+	//"instructions/instruct-3.html",
+	//"instructions/instruct-4.html",
+	//"instructions/instruct-5.html",
 	"instructions/instruct-ready.html"
 ];
 
