@@ -220,3 +220,108 @@
 2015-07-01 15:32:07,190 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
 2015-07-01 15:32:07,352 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
 2015-07-01 15:32:07,398 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 12:44:34,626 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 12:44:34,686 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 12:44:34,702 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 12:44:34,765 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 12:44:34,837 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 12:44:34,847 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 12:44:34,892 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 12:44:34,948 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 12:44:35,003 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 12:44:35,038 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 12:44:35,104 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 12:44:35,122 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 12:44:35,172 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 12:44:35,258 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 12:44:35,294 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 12:44:35,313 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 12:44:35,408 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 13:26:11,220 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 13:26:11,224 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 13:26:11,337 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 13:26:11,338 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 13:26:11,455 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 13:26:11,458 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 13:26:11,553 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 13:26:11,557 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 13:26:11,630 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 13:26:11,727 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 13:26:11,737 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 13:26:11,800 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 13:26:11,809 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 13:26:11,878 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 13:26:11,985 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 13:26:12,076 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 13:26:12,077 /usr/local/lib/python2.7/dist-packages/psiturk/psiturk_js/psiturk.js
+2015-07-02 15:42:29,239 DB error: Unique user not found.
+2015-07-02 15:42:29,240 Exception on /sync/debug5DAINL:debugGY5NXD [PUT]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-07-02 15:42:29,238 Exception on /sync/debug5DAINL:debugGY5NXD [PUT]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python2.7/dist-packages/psiturk/experiment.py", line 522, in update
+    db_session.commit()
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/scoping.py", line 150, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 790, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 392, in commit
+    self._prepare_impl()
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 372, in _prepare_impl
+    self.session.flush()
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 2004, in flush
+    self._flush(objects)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 2122, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/langhelpers.py", line 60, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 2086, in _flush
+    flush_context.execute()
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/unitofwork.py", line 373, in execute
+    rec.execute(self)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/unitofwork.py", line 532, in execute
+    uow
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/persistence.py", line 170, in save_obj
+    mapper, table, update)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/persistence.py", line 672, in _emit_update_statements
+    execute(statement, multiparams)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1339, in _handle_dbapi_exception
+    exc_info
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/util/compat.py", line 199, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 442, in do_execute
+    cursor.execute(statement, parameters)
+OperationalError: (sqlite3.OperationalError) database is locked [SQL: u'UPDATE turkdemo SET datastring=? WHERE turkdemo.uniqueid = ?'] [parameters: ('{"condition":0,"counterbalance":0,"assignmentId":"debugGY5NXD","workerId":"debug5DAINL","hitId":"debugWFHP9I","currenttrial":32,"bonus":0,"data":[{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":0,"dateTime":1435840929008,"trialdata":{"phase":"INSTRUCTIONS","templates":["instructions/instruct-1.html","instructions/instruct-1a.html","instructions/instruct-ready.html"],"action":"Begin"}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":1,"dateTime":1435840929931,"trialdata":{"phase":"INSTRUCTIONS","template":"instructions/instruct-1.html","indexOf":0,"action":"NextPage","viewTime":919}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":2,"dateTime":1435840930098,"trialdata":{"phase":"INSTRUCTIONS","template":"instructions/instruct-1a.html","indexOf":1,"action":"NextPage","viewTime":160}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":3,"dateTime":1435840930994,"trialdata":{"phase":"INSTRUCTIONS","template":"instructions/instruct-ready.html","indexOf":2,"action":"FinishInstructions","viewTime":894}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":4,"dateTime":1435840932049,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":1044}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":5,"dateTime":1435840936727,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"82","response":"zanda","hit":"72","rt":5722}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":6,"dateTime":1435840936735,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":4677}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":7,"dateTime":1435840940200,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":9195}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":8,"dateTime":1435840940207,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":3470}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":9,"dateTime":1435840940209,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":3474}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":10,"dateTime":1435840940935,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":9930}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":11,"dateTime":1435840940941,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":732}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":12,"dateTime":1435840940943,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":732}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":13,"dateTime":1435840940946,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":739}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":14,"dateTime":1435840941481,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":10476}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":15,"dateTime":1435840941486,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":543}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":16,"dateTime":1435840941488,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":542}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":17,"dateTime":1435840941489,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":540}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":18,"dateTime":1435840941490,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":549}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":19,"dateTime":1435840942075,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":11070}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":20,"dateTime":1435840942081,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":593}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":21,"dateTime":1435840942082,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":593}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":22,"dateTime":1435840942084,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":594}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":23,"dateTime":1435840942086,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":595}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":24,"dateTime":1435840942088,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":602}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":25,"dateTime":1435840942608,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":11603}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":26,"dateTime":1435840942613,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":531}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":27,"dateTime":1435840942614,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":530}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":28,"dateTime":1435840942617,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":531}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":29,"dateTime":1435840942618,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":530}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":30,"dateTime":1435840942619,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":530}},{"uniqueid":"debug5DAINL:debugGY5NXD","current_trial":31,"dateTime":1435840942621,"trialdata":{"phase":"TEST","word":"that","color":"this","relation":"50","response":"zanda","hit":"50","rt":540}}],"questiondata":{},"eventdata":[{"eventtype":"initialized","value":null,"timestamp":1435840928939,"interval":0},{"eventtype":"window_resize","value":[1024,768],"timestamp":1435840928939,"interval":0}],"useragent":"","status":"user data saved"}', u'debug5DAINL:debugGY5NXD')]

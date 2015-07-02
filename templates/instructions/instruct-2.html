@@ -15,7 +15,7 @@
 		
 
 		<div id="instr2_headerdiv" align="center">
-			<svg width="500" height="150" id="instr2_headersvg"></svg>
+			<svg width="750" height="220" id="instr2_headersvg"></svg>
 		</div>
 		
 		<div align="center">
@@ -25,11 +25,11 @@
 		<div id="instr2_wrapper" align="center">
 
 		  <div id="instr2_cbbbb" >
-	              <svg id="instr2_stagesvg2" width="264" height="288"></svg>
+	              <svg id="instr2_stagesvg2" width="300" height="300"> </svg>
 
                       <div id="instr2_radio" align="center">
-				<input type="radio" id="instr2_radio1"  name="decide" value="success"  onclick="instr2_enable_next();" >Success 
-				<input type="radio" id="instr2_radio2" name="decide" value="failure" onclick="instr2_showinst('This was not a right answer, please try again');" >Failure
+				<input type="radio" id="instr2_radio1"  name="decide" value="success"  onclick="instr2_enable_next();"  >Success 
+				<input type="radio" id="instr2_radio2" name="decide" value="failure" onclick="instr2_showinst('This was not a right answer, please try again');">Failure
 		      </div>
 			<BR>
 
@@ -110,8 +110,8 @@
 				.attr("id","instr2_hdr_img")
 				.attr("x", 0)
 				.attr("y", 0)
-				.attr("width", 500)
-				.attr("height", 150)
+				.attr("width", 750)
+				.attr("height", 220)
 				.attr("xlink:href", "../../static/images/s1.jpg");
 			
 
@@ -147,11 +147,11 @@
 		d3.select("#instr2_stagesvg2")
 				.append("image")
 				.attr("id","instr2_img2")
-				.attr("x", 0)
-				.attr("y", 0)
-				.attr("width", 264)
-				.attr("height", 288)
-				.attr("xlink:href", "../../static/images/p2.jpg");
+				//.attr("x", 0)
+				//.attr("y", 0)
+				.attr("width", 300)
+				.attr("height", 300)
+				.attr("xlink:href", "static/images/p1.jpg");
 
 		
 		

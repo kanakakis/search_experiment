@@ -16,11 +16,12 @@ var pages = [
 	"instructions/instruct-1.html",
 	"instructions/instruct-1a.html",
 	"instructions/instruct-2.html",
-	//"instructions/instruct-3.html",
+	"instructions/instruct-3.html",
 	//"instructions/instruct-4.html",
 	//"instructions/instruct-5.html",
 	"instructions/instruct-ready.html",
 	"stage.html",
+	"stage1.html",
 	"postquestionnaire.html"
 ];
 
@@ -30,7 +31,7 @@ var instructionPages = [ // add as a list as many pages as you like
 	"instructions/instruct-1.html",
 	"instructions/instruct-1a.html",
 	"instructions/instruct-2.html",
-	//"instructions/instruct-3.html",
+	"instructions/instruct-3.html",
 	//"instructions/instruct-4.html",
 	//"instructions/instruct-5.html",
 	"instructions/instruct-ready.html"
@@ -50,6 +51,10 @@ var instructionPages = [ // add as a list as many pages as you like
 /********************
 * STROOP TEST       *
 ********************/
+
+var par_val1=0;
+var par_val2=0;
+
 var StroopExperiment = function() {
 
 
@@ -60,47 +65,21 @@ var StroopExperiment = function() {
 	
 
 	var next = function() {
-		if (metritis==13) {
+
+		
+	
+		if (metritis==12) {
 			finish();
 		}
 
-		show_text_trial_number("You are currently at trial: <font color='red'> "   + metritis +  "  </font> / 20");
-
-		if (metritis==0) {
-
-
-			//var pos_left = document.getElementById("stagesvg2").offsetLeft;
-			//var pos_top = document.getElementById("stagesvg2").offsetTop;
-
-			//var pos_left2 = document.getElementById("stagesvg3").offsetLeft;
-			//var pos_top2 = document.getElementById("stagesvg3").offsetTop;
-    			//alert("Top: " + pos_top + " Left: " + pos_left + " Left: "+ pos_left2 + " Left: "+ pos_top2);
-
-			//document.getElementById("question11").style.position = 'absolute';
-			//document.getElementById("question11").attr('x', pos_left);
-			//document.getElementById("question11").attr('y', pos_top);	
-
-			//d3.select("#question11").attr('x', pos_left);
-
-			show_text_instr("Please respond your initial trust, based on your previous experience with similar systems");
-
-			document.getElementById("button1").disabled = true; 	
-			document.getElementById('button1').style.visibility="hidden";	
 		
-			showSliderValue(document.getElementById('sliderBar').value) ; 		
-			showSliderValue2(document.getElementById('sliderBar2').value) ; 
 
-			show_q1();
-			show_q2();
-
-			show_text_next_trial ();
+		else {
 
 			metritis=metritis+1;
 
-		}	
-		else {
+			show_text_trial_number("You are currently at trial: <font color='red'> "   + metritis +  "  </font> / 12");
 
-			
 
 			show_text_instr ("Click the Search Button below to see the results!!");
 			
@@ -111,18 +90,25 @@ var StroopExperiment = function() {
 			
 			show_hdr_img(header_figure[metritis_hdr]);
 			
-			document.getElementById("button1").disabled = false; 
+			
 			document.getElementById("sliderBar").disabled = true; 
 			document.getElementById('sliderBar').style.visibility="hidden";
 
 			document.getElementById("sliderBar2").disabled = true; 
 			document.getElementById('sliderBar2').style.visibility="hidden";
 			
+			if (metritis==1) {
+
+				document.getElementById("sliderBar").value = par_val1; 
+				document.getElementById("sliderBar2").value = par_val2; 
+
+			}
 
 			
 			wordon = new Date().getTime();
-			
 		}
+			
+	
 	};
 	
 	var response_handler = function(e) {
@@ -186,7 +172,6 @@ var StroopExperiment = function() {
 		d3.select("#imggggg4").remove();
 		d3.select("#texttt_q11").remove();
 		d3.select("#texttt_q12").remove();
-		d3.select("#buttonnn").remove();
 	};
 	
 	
@@ -212,6 +197,100 @@ var StroopExperiment = function() {
         		}
        		}
         }, 50);
+};
+
+
+
+
+
+var StroopExperiment2 = function() {
+
+
+
+	var wordon, // time word is presented
+	    listening = true;
+
+	
+
+	var next = function() {
+
+		
+		show_text_trial_number("You are currently at trial: <font color='red'> 0 </font> / 12");
+
+		
+		show_text_instr("Please respond your initial trust, based on your previous experience with similar systems");
+
+
+		showSliderValue(document.getElementById('sliderBar').value) ; 		
+		showSliderValue2(document.getElementById('sliderBar2').value) ; 
+
+		show_q1();
+		show_q2();
+
+		show_text_next_trial ();
+
+		wordon = new Date().getTime();
+	
+	};
+	
+
+	var response_handler = function(e) {
+		if (!listening) return;
+
+		var keyCode = e.keyCode,
+			response;
+
+		switch (keyCode) {
+
+			case 13:
+				// "Enter" key
+				response="zanda";
+				break;
+			default:
+				response = "";
+				break;
+		}
+
+		if (response.length>0) {
+			
+			//rt: counts the response time that the user remains at each experiment
+			var rt = new Date().getTime() - wordon;
+			//var trust_response1 = document.getElementById("sliderBar").value;
+			//var trust_response2 = document.getElementById("sliderBar2").value;
+			 par_val1 = document.getElementById("sliderBar").value;
+			 par_val2 = document.getElementById("sliderBar2").value;
+
+
+			psiTurk.recordTrialData({'phase':"TEST",
+                                     'word':"that",
+                                     'color':"this",
+                                     'relation':par_val1,
+                                     'response':response,
+                                     'hit':par_val2,
+                                     'rt':rt}
+                                   );
+			
+			psiTurk.saveData();
+				
+			currentview = new StroopExperiment();
+		}
+	};
+
+	
+
+	
+	// Load the stage.html snippet into the body of the page
+	psiTurk.showPage('stage1.html');
+	
+
+	// Register the response handler that is defined above to handle any
+	// key down events.
+	$("body").focus().keydown(response_handler); 
+
+	// Start the test
+	next();
+
+	
 };
 
 
@@ -359,6 +438,6 @@ var currentview;
 $(window).load( function(){
     psiTurk.doInstructions(
     	instructionPages, // a list of pages you want to display in sequence
-    	function() { currentview = new StroopExperiment(); } // what you want to do when you are done with instructions
+    	function() { currentview = new StroopExperiment2(); } // what you want to do when you are done with instructions
     );
 });

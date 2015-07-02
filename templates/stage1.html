@@ -1,0 +1,139 @@
+<div id="container-exp">
+	<div id="trial">
+		
+		
+		
+
+		
+		<div id="puttext_trialnum"></div>
+
+		<div id="puttext_clbut"></div>
+
+		
+	
+                <div id="wrapper">
+		  <div id="cbbbb">
+	              
+                      <div id="question11" width="350"> </div>
+		      <div id="sbbbb"> 
+			<input type="range" id="sliderBar" min="0" max="100" step="1" value="50"  onChange="mult_func_slider(this.value);"/>
+		      </div>	
+		      <div id="puttext"></div>	
+		  </div>
+
+		  <div id="cbbbb1">
+			
+			<div id="question12" width="350"> </div>	
+                        <div id="sbbbb2"> 
+			  <input type="range" id="sliderBar2" min="0" max="100" step="1" value="50" onChange="mult_func_slider2(this.value);"/>
+		        </div>
+			<div id="puttext2"></div>	
+		  </div>
+
+                </div>
+
+		<div id="puttext_nt"></div>
+
+		
+
+
+	</div>
+</div>
+
+
+
+<script>
+
+
+
+	var show_q1 = function() {		
+		d3.select("#question11")
+		  .append("div")
+		  .attr("id","texttt_q11")
+		  //.text(text_q1);
+		  .html ('To what extent do you have the confidence that ACME  Search Engine <br>   will achieve to <B> provide the anticipated results at the first page </B>, <br> during your next search?');
+	};
+
+	
+
+	var show_q2 = function() {
+		
+		d3.select("#question12")
+		  .append("div")
+		  .attr("id","texttt_q12")
+		  //.text(text_q2);
+		    .html('To what extent do you have the confidence that ACME  Search Engine is <BR>  <B> <U> not recording your search history </U> </B> <br> (including keywords revealing your health status) <br> to deliver personalised advertising?');
+	};
+
+
+	//--------------------------------functions for the slider--------------------------------------//
+	
+	var mult_func_slider = function(vts) {
+		
+		remove_texttt();
+		showSliderValue(vts) ; 
+	};
+
+        var mult_func_slider2 = function(vts) {
+		
+		remove_texttt2();
+		showSliderValue2(vts) ; 
+	};
+
+	var remove_texttt = function() {
+		d3.select("#texttt").remove();		
+	};
+
+	var remove_texttt2 = function() {
+		d3.select("#texttt2").remove();		
+	};
+
+	var showSliderValue = function(text2) {
+		
+		d3.select("#puttext")
+		  .append("div")
+		  .attr("id","texttt")
+		  .text(text2);
+	};
+
+	var showSliderValue2 = function(text22) {
+		
+		d3.select("#puttext2")
+		  .append("div")
+		  .attr("id","texttt2")
+		  .text(text22);
+	};
+
+
+	//--------------------------------functions for the slider--------------------------------------//
+
+	
+	var show_text_trial_number = function(wh_trial) {
+		
+		d3.select("#puttext_trialnum")
+		  .append("div")
+		  .attr("id","texttt_trialn")
+		  .html(wh_trial);
+	};
+
+	var show_text_instr = function(wh_to_disp) {
+		
+		d3.select("#puttext_clbut")
+		  .append("div")
+		  .attr("id","texttt_clbut")
+		  .html(wh_to_disp);
+	};
+
+   
+	
+
+	var show_text_next_trial = function() {
+		
+		d3.select("#puttext_nt")
+		  .append("div")
+		  .attr("id","texttt_nt")
+		  .html('<font color="red" > When you are ready, please press Enter to continue to the next trial </font>');
+	};
+
+	
+</script>
