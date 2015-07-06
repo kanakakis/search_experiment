@@ -1,77 +1,63 @@
 <div id="container-instructions">
 
-    <h1>Instructions</h1>
+	<h1>Instructions (4/7) </h1>
 
-    <hr>
+	<hr>
 
-    <div class="instructions well">
+	<div class="instructions well">
 
-        <p>
-            This is the second page of instructions.
-        </p>
+	    <p>
+		<B> B) Part one: The interactive ACME search engine exercise (continued) </B> <BR><BR>
 
-        <p>
-            Instructions for a success
+				This is not a memory test. However, when answering these questions, it is important that during each trail 
 
+				you take into account the number of relevant ‘green’ links received and the nature of the advertisement
 
-		<div id="instr4_headerdiv" align="center">
-			<svg width="500" height="250" id="instr4_headersvg"></svg>
-		</div>
-		
-		<div align="center">
-			<button type="button"  id="instr4_button1" onclick="instr4_mult_func();"  >Search</button>
-		</div>
+				displayed i.e. does the advertisement appear to directly link to the current or previous search terms used?
 
-		<BR><BR>
+				Please take a few seconds to think about all this information before submitting your responses at the end
 
+				of each trial. You can always check the to-do list if unsure about the search terms that appeared.
 
-		<div id="instr4_wrapper" align="center">
+				The answers you provide will be used to group you together with other participants that have similar answers.
 
-		  <div id="instr4_cbbbb" >
-	              <svg id="instr4_stagesvg2" width="264" height="288"></svg>
+				From this information, we will calculate whether you will receive a bonus of $1.5 (US dollars). Note that your
 
-                      <div id="instr4_radio" align="center">
-				<input type="radio" id="instr4_radio1"  name="decide" value="relevant"  onclick="instr4_enable_next();" >Relevant 
-				<input type="radio" id="instr4_radio2" name="decide" value="irrelevant" onclick="alert('This was not a right answer, please try again');" >Irrelevant
-		      </div>
-			<BR>
+				answers will be reviewed to determine if they meet a minimum level of consistency, indicating thoughtful and
 
-		      <div id="instr4_question11" width="350"> </div>
+				honest responses.
 
-		      <input type="range" id="instr4_sliderBar" min="0" max="100" step="1" value="50"  onChange="instr4_mult_func_slider(this.value);"/>
-		      <div id="instr4_puttext2"></div>
-		  </div>
+				You will have the chance to win an extra bonus if your answers during the last (12th) interaction with the ACME
 
-		</div>
-		
+				search engine is the closest one to the mean of the answers in your group.<BR><BR>
 
-		<BR><BR>
-			
-		 
+		<B> C) Part two: The questionnaire </B> <BR>
 
-                
-        </p>
+				After you have completed the 12 trials – you will be asked to fill in a questionnaire about online trust. The questions asked relate to your demographics information, personality and prefere
+ 
+	    </p>
+	    
+	    
 
 
-        <script type="text/javascript">
-        //console.log(psiTurk.getInstructionIndicator())
-        </script>
+	    <script type="text/javascript">
+	    //console.log(psiTurk.getInstructionIndicator())
+	    </script>
 
-    </div>
+	</div>
 
-    <hr>
+	<hr>
+
 
     <div class="instructionsnav">
         <div class="row">
             <div class="col-xs-2">
-                <button type="button" id="next" value="next" class="btn btn-primary btn-lg previous">
-                <span class="glyphicon glyphicon-arrow-left"></span> Previous
-                </button>
+            	<!-- no previous button on first screen -->
             </div>
             <div class="col-xs-8">
             </div>
             <div class="col-xs-2">
-                <button type="button" id="next4" value="next" class="btn btn-primary btn-lg continue">
+                <button type="button" id="next" value="next" class="btn btn-primary btn-lg continue">
                 Next <span class="glyphicon glyphicon-arrow-right"></span>
                 </button>
             </div>
@@ -79,101 +65,3 @@
     </div>
 
 </div>
-
-
-
-		<script>
-
-	
-
-		document.getElementById("next4").disabled = true; 
-
-		document.getElementById("instr4_radio").style.visibility="hidden";
-		document.getElementById("instr4_sliderBar").style.visibility="hidden";
-		document.getElementById("instr4_sliderBar").disabled = true;
-		
-
-		
-		//show the main figure
-			d3.select("#instr4_headersvg")
-				.append("image")
-				.attr("id","instr4_hdr_img")
-				.attr("x", 0)
-				.attr("y", 0)
-				.attr("width", 500)
-				.attr("height", 250)
-				.attr("xlink:href", "../../static/images/s1.jpg");
-			
-
-		
-
-		var instr4_enable_next = function() { 
-			
-			
-			document.getElementById("instr4_radio1").disabled = true; 
-			document.getElementById("instr4_radio2").disabled = true; 
-
-			document.getElementById("instr4_sliderBar").style.visibility="visible";
-			document.getElementById("instr4_sliderBar").disabled = false; 
-
-			d3.select("#instr4_question11")
-				  .append("div")
-				  .attr("id","instr4_texttt_q11")
-				  .html ('In your opinion, to what extent does ACME <br>  search engine <B> record  your search history </B> <br> (including keywords revealing your health status) <br> 						 to deliver personalised advertising?');
-
-			alert('This was  a right answer, you may now continue:\n Please respond how your trust on system changed after this outcome, using the slidebar below');
-		};
-
-
-	//show the two other figures
-	var instr4_mult_func = function() {
-
-                
-		d3.select("#instr4_stagesvg2")
-				.append("image")
-				.attr("id","instr4_img2")
-				.attr("x", 0)
-				.attr("y", 0)
-				.attr("width", 264)
-				.attr("height", 288)
-				.attr("xlink:href", "../../static/images/a9.jpg");
-
-		
-		
-		document.getElementById("instr4_button1").disabled = true; 
-	
-		
-		document.getElementById("instr4_radio").style.visibility="visible";
-		
-		
-		
-	};
-
-	var instr4_mult_func_slider = function(vts) {
-		document.getElementById("next4").disabled = false; 
-
-		instr4_showSliderValue2(document.getElementById("instr4_sliderBar").value);
-		document.getElementById("instr4_sliderBar").disabled = true; 
-
-
-		//success and trust increase
-		if (document.getElementById("instr4_sliderBar").value >=50) {
-			alert('Your response indicates a distrust increase after a relevant advertishment, which is not surprising.\n\n You may now continue in the next page of instractions:\n Please click the "Next" button below.');
-
-		}
-
-		if (document.getElementById("instr4_sliderBar").value < 50) {
-			alert('Your response indicates a distrust decrease after a relevant advertishment, which is interesting. \n\n You may now continue in the next page of instractions:\n Please click the "Next" button below.');
-		}
-	};
-
-	var instr4_showSliderValue2 = function(instr4_text22) {
-		
-		d3.select("#instr4_puttext2")
-		  .append("div")
-		  .attr("id","instr4_texttt2")
-		  .text(instr4_text22);
-	};
-
-
-	   </script>
