@@ -10,93 +10,89 @@ debug8W22D9:debug7NZER7,difficulty,5
 debug8W22D9:debug7NZER7,engagement,5
 debugRRETC7:debugRPWFIA,difficulty,5
 debugRRETC7:debugRPWFIA,engagement,5
-debugWMS7V2:debugED5OO4,difficulty,5
-debugWMS7V2:debugED5OO4,engagement,5
-debugP1PHWC:debugMZV8FZ,subq41,-- select an option --
-debugP1PHWC:debugMZV8FZ,subq43,-- select an option --
-debugP1PHWC:debugMZV8FZ,subq24,3
-debugP1PHWC:debugMZV8FZ,subq23,3
-debugP1PHWC:debugMZV8FZ,subq22,3
-debugP1PHWC:debugMZV8FZ,subq21,3
-debugP1PHWC:debugMZV8FZ,subq46,-- select an option --
-debugP1PHWC:debugMZV8FZ,q34,1
-debugP1PHWC:debugMZV8FZ,q20,1
-debugP1PHWC:debugMZV8FZ,q21,3
-debugP1PHWC:debugMZV8FZ,subq42,-- select an option --
-debugP1PHWC:debugMZV8FZ,q19,3
-debugP1PHWC:debugMZV8FZ,q25,3
-debugP1PHWC:debugMZV8FZ,q26,1
-debugP1PHWC:debugMZV8FZ,q27,3
-debugP1PHWC:debugMZV8FZ,subq45,-- select an option --
-debugP1PHWC:debugMZV8FZ,subq44,-- select an option --
-debugP1PHWC:debugMZV8FZ,subq47,-- select an option --
-debugP1PHWC:debugMZV8FZ,q6,1
-debugP1PHWC:debugMZV8FZ,q9,3
-debugP1PHWC:debugMZV8FZ,subq12,3
-debugP1PHWC:debugMZV8FZ,engagement,5
-debugP1PHWC:debugMZV8FZ,subq13,3
-debugP1PHWC:debugMZV8FZ,subq52,3
-debugP1PHWC:debugMZV8FZ,subq53,3
-debugP1PHWC:debugMZV8FZ,subq51,3
-debugP1PHWC:debugMZV8FZ,subq54,3
-debugP1PHWC:debugMZV8FZ,q15,3
-debugP1PHWC:debugMZV8FZ,difficulty,5
-debugP1PHWC:debugMZV8FZ,q31,3
-debugP1PHWC:debugMZV8FZ,q11,3
-debugP1PHWC:debugMZV8FZ,q10,3
-debugP1PHWC:debugMZV8FZ,q13,3
-debugP1PHWC:debugMZV8FZ,q12,1
-debugP1PHWC:debugMZV8FZ,subq31,3
-debugP1PHWC:debugMZV8FZ,subq32,3
-debugP1PHWC:debugMZV8FZ,subq33,3
-debugP1PHWC:debugMZV8FZ,subq34,3
-debugP1PHWC:debugMZV8FZ,subq35,3
-debugP1PHWC:debugMZV8FZ,subq11,3
-debugP1PHWC:debugMZV8FZ,q33,3
-debugP1PHWC:debugMZV8FZ,q32,1
-debugP1PHWC:debugMZV8FZ,q14,3
-debugP1PHWC:debugMZV8FZ,q35,1
-debug87XBDY:debug6TMUML,subq41,-- select an option --
-debug87XBDY:debug6TMUML,subq43,-- select an option --
-debug87XBDY:debug6TMUML,subq24,3
-debug87XBDY:debug6TMUML,subq23,3
-debug87XBDY:debug6TMUML,subq22,3
-debug87XBDY:debug6TMUML,subq21,3
-debug87XBDY:debug6TMUML,subq46,-- select an option --
-debug87XBDY:debug6TMUML,q34,1
-debug87XBDY:debug6TMUML,q20,1
-debug87XBDY:debug6TMUML,q21,3
-debug87XBDY:debug6TMUML,subq42,-- select an option --
-debug87XBDY:debug6TMUML,q19,3
-debug87XBDY:debug6TMUML,q25,3
-debug87XBDY:debug6TMUML,q26,1
-debug87XBDY:debug6TMUML,q27,3
-debug87XBDY:debug6TMUML,subq45,-- select an option --
-debug87XBDY:debug6TMUML,subq44,-- select an option --
-debug87XBDY:debug6TMUML,subq47,-- select an option --
-debug87XBDY:debug6TMUML,q6,1
-debug87XBDY:debug6TMUML,q9,3
-debug87XBDY:debug6TMUML,subq12,3
-debug87XBDY:debug6TMUML,engagement,5
-debug87XBDY:debug6TMUML,subq13,3
-debug87XBDY:debug6TMUML,subq52,3
-debug87XBDY:debug6TMUML,subq53,3
-debug87XBDY:debug6TMUML,subq51,3
-debug87XBDY:debug6TMUML,subq54,3
-debug87XBDY:debug6TMUML,q15,3
-debug87XBDY:debug6TMUML,difficulty,5
-debug87XBDY:debug6TMUML,q31,3
-debug87XBDY:debug6TMUML,q11,3
-debug87XBDY:debug6TMUML,q10,3
-debug87XBDY:debug6TMUML,q13,3
-debug87XBDY:debug6TMUML,q12,1
-debug87XBDY:debug6TMUML,subq31,3
-debug87XBDY:debug6TMUML,subq32,3
-debug87XBDY:debug6TMUML,subq33,3
-debug87XBDY:debug6TMUML,subq34,3
-debug87XBDY:debug6TMUML,subq35,3
-debug87XBDY:debug6TMUML,subq11,3
-debug87XBDY:debug6TMUML,q33,3
-debug87XBDY:debug6TMUML,q32,1
-debug87XBDY:debug6TMUML,q14,3
-debug87XBDY:debug6TMUML,q35,1
+debugK9IS8J:debugG6V6TZ,difficulty,5
+debugK9IS8J:debugG6V6TZ,engagement,5
+debugSUBKZ2:debugFYLVUL,subq41,-- select an option --
+debugSUBKZ2:debugFYLVUL,subq43,-- select an option --
+debugSUBKZ2:debugFYLVUL,subq24,-- select an option --
+debugSUBKZ2:debugFYLVUL,subq23,-- select an option --
+debugSUBKZ2:debugFYLVUL,subq22,5
+debugSUBKZ2:debugFYLVUL,subq21,-- select an option --
+debugSUBKZ2:debugFYLVUL,subq46,-- select an option --
+debugSUBKZ2:debugFYLVUL,q34,-- select an option --
+debugSUBKZ2:debugFYLVUL,q20,-- select an option --
+debugSUBKZ2:debugFYLVUL,q21,-- select an option --
+debugSUBKZ2:debugFYLVUL,subq42,-- select an option --
+debugSUBKZ2:debugFYLVUL,q25,-- select an option --
+debugSUBKZ2:debugFYLVUL,q26,-- select an option --
+debugSUBKZ2:debugFYLVUL,q27,-- select an option --
+debugSUBKZ2:debugFYLVUL,subq45,-- select an option --
+debugSUBKZ2:debugFYLVUL,subq44,-- select an option --
+debugSUBKZ2:debugFYLVUL,subq47,-- select an option --
+debugSUBKZ2:debugFYLVUL,q6,1
+debugSUBKZ2:debugFYLVUL,q9,-- select an option --
+debugSUBKZ2:debugFYLVUL,subq12,-- select an option --
+debugSUBKZ2:debugFYLVUL,q19,-- select an option --
+debugSUBKZ2:debugFYLVUL,subq13,-- select an option --
+debugSUBKZ2:debugFYLVUL,subq52,-- select an option --
+debugSUBKZ2:debugFYLVUL,subq53,-- select an option --
+debugSUBKZ2:debugFYLVUL,subq51,-- select an option --
+debugSUBKZ2:debugFYLVUL,subq54,-- select an option --
+debugSUBKZ2:debugFYLVUL,q15,-- select an option --
+debugSUBKZ2:debugFYLVUL,q14,-- select an option --
+debugSUBKZ2:debugFYLVUL,q31,-- select an option --
+debugSUBKZ2:debugFYLVUL,q11,-- select an option --
+debugSUBKZ2:debugFYLVUL,q10,-- select an option --
+debugSUBKZ2:debugFYLVUL,q13,-- select an option --
+debugSUBKZ2:debugFYLVUL,q12,-- select an option --
+debugSUBKZ2:debugFYLVUL,subq31,-- select an option --
+debugSUBKZ2:debugFYLVUL,subq32,-- select an option --
+debugSUBKZ2:debugFYLVUL,subq33,-- select an option --
+debugSUBKZ2:debugFYLVUL,subq34,-- select an option --
+debugSUBKZ2:debugFYLVUL,subq35,-- select an option --
+debugSUBKZ2:debugFYLVUL,subq11,1
+debugSUBKZ2:debugFYLVUL,q33,-- select an option --
+debugSUBKZ2:debugFYLVUL,q32,-- select an option --
+debugSUBKZ2:debugFYLVUL,q35,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq41,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq43,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq24,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq23,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq22,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq21,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq46,-- select an option --
+debugUYX9TQ:debugTAZ7A2,q34,-- select an option --
+debugUYX9TQ:debugTAZ7A2,q20,-- select an option --
+debugUYX9TQ:debugTAZ7A2,q21,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq42,-- select an option --
+debugUYX9TQ:debugTAZ7A2,q25,-- select an option --
+debugUYX9TQ:debugTAZ7A2,q26,-- select an option --
+debugUYX9TQ:debugTAZ7A2,q27,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq45,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq44,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq47,-- select an option --
+debugUYX9TQ:debugTAZ7A2,q6,1
+debugUYX9TQ:debugTAZ7A2,q9,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq12,-- select an option --
+debugUYX9TQ:debugTAZ7A2,q19,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq13,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq52,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq53,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq51,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq54,-- select an option --
+debugUYX9TQ:debugTAZ7A2,q15,-- select an option --
+debugUYX9TQ:debugTAZ7A2,q14,-- select an option --
+debugUYX9TQ:debugTAZ7A2,q31,-- select an option --
+debugUYX9TQ:debugTAZ7A2,q11,-- select an option --
+debugUYX9TQ:debugTAZ7A2,q10,-- select an option --
+debugUYX9TQ:debugTAZ7A2,q13,-- select an option --
+debugUYX9TQ:debugTAZ7A2,q12,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq31,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq32,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq33,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq34,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq35,-- select an option --
+debugUYX9TQ:debugTAZ7A2,subq11,-- select an option --
+debugUYX9TQ:debugTAZ7A2,q33,-- select an option --
+debugUYX9TQ:debugTAZ7A2,q32,-- select an option --
+debugUYX9TQ:debugTAZ7A2,q35,1

@@ -7,9 +7,16 @@
 		
 		<div id="puttext_trialnum"></div>
 
-		<div id="puttext_clbut"></div>
+		<div align="center">
+			<img src="../../static/images/s0b.jpg"  width="750px" height="220px"> 
+		</div>
 
+		<BR>
+
+		<font size="+2"> Please respond your <B> initial trust </B>, based on your <B> previous experience </B> with similar systems </font>
 		
+		<BR><BR><BR>
+
 	
                 <div id="wrapper">
 		  <div id="cbbbb">
@@ -51,7 +58,7 @@
 		  .append("div")
 		  .attr("id","texttt_q11")
 		  //.text(text_q1);
-		  .html ('In your opinion, to what extent will ACME  Search Engine <br>   deliver <B> at least one useful result on the first page </B>, <br> during your next search?');
+		  .html ('To what extent do you have the confidence that  ACME  Search Engine  <br>   <U> will deliver  <B> at least one </B> useful result  <br>  on the first page </U> <br> during your next search?');
 	};
 
 	
@@ -62,7 +69,7 @@
 		  .append("div")
 		  .attr("id","texttt_q12")
 		  //.text(text_q2);
-		    .html('To what extent do you have the confidence that ACME  Search Engine is <BR>  <B> <U> not recording your search history </U> </B> <br> (including keywords revealing your health status) <br> to deliver personalised advertising?');
+		    .html('To what extent do you have the confidence that ACME  Search Engine  <BR>   <U> is <B> not </B>  recording your search history  <br> (including keywords revealing your health status) </U>  <br> to deliver personalised advertising?');
 	};
 
 
@@ -116,13 +123,7 @@
 		  .html(wh_trial);
 	};
 
-	var show_text_instr = function(wh_to_disp) {
-		
-		d3.select("#puttext_clbut")
-		  .append("div")
-		  .attr("id","texttt_clbut")
-		  .html(wh_to_disp);
-	};
+	
 
    
 	

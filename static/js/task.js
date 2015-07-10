@@ -137,7 +137,7 @@ var StroopExperiment = function() {
 
 			
 
-			psiTurk.recordTrialData({'phase':"TEST",
+			psiTurk.recordTrialData({'phase':"MAINTEST",
                                      'word':"that",
                                      'color':"this",
                                      'relation':trust_response1,
@@ -218,7 +218,7 @@ var StroopExperiment2 = function() {
 		show_text_trial_number("You are currently at trial: <font color='red'> 0 </font> / 12");
 
 		
-		show_text_instr("Please respond your initial trust, based on your previous experience with similar systems");
+		//show_text_instr("Please respond your initial trust, based on your previous experience with similar systems");
 
 
 		showSliderValue(document.getElementById('sliderBar').value) ; 		
@@ -261,7 +261,7 @@ var StroopExperiment2 = function() {
 			 par_val2 = document.getElementById("sliderBar2").value;
 
 
-			psiTurk.recordTrialData({'phase':"TEST",
+			psiTurk.recordTrialData({'phase':"initial",
                                      'word':"that",
                                      'color':"this",
                                      'relation':par_val1,
@@ -304,8 +304,8 @@ var Questionnaire = function() {
 
 	record_responses = function() {
 
-		var met1 = document.getElementById("engagement").value;
-		var met2 = document.getElementById("difficulty").value;
+		//var met1 = document.getElementById("engagement").value;
+		//var met2 = document.getElementById("difficulty").value;
 
 		var suban11 = document.getElementById("subq11").value;
 		var suban12 = document.getElementById("subq12").value;
@@ -373,7 +373,7 @@ var Questionnaire = function() {
 		var an35 = document.getElementById("q35").value;
 
 
-		psiTurk.recordTrialData({'phase':met1, 'status':met2, 'suban11':suban11, 'suban12':suban12, 'suban13':suban13, 
+		psiTurk.recordTrialData({'phase':"POST", 'status':"this", 'suban11':suban11, 'suban12':suban12, 'suban13':suban13, 
 								      'suban21':suban21, 'suban22':suban22, 'suban23':suban23, 'suban24':suban24, 
 								      'suban31':suban31, 'suban32':suban32, 'suban33':suban33, 'suban34':suban34, 'suban35':suban35,
 								   'suban41':suban41, 'suban42':suban42, 'suban43':suban43, 'suban44':suban44, 'suban45':suban45, 'suban46':suban46,'suban47':suban47,
