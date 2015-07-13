@@ -146,7 +146,7 @@ var StroopExperiment = function() {
                                      'rt':rt}
                                    );
 			
-			psiTurk.saveData();
+			//psiTurk.saveData();
 			
 
 			clear_stage();
@@ -212,7 +212,7 @@ var StroopExperiment2 = function() {
 
 	
 
-	var next = function() {
+	var next2 = function() {
 
 		
 		show_text_trial_number("You are currently at trial: <font color='red'> 0 </font> / 12");
@@ -234,7 +234,7 @@ var StroopExperiment2 = function() {
 	};
 	
 
-	var response_handler = function(e) {
+	var response_handler2 = function(e) {
 		if (!listening) return;
 
 		var keyCode = e.keyCode,
@@ -270,13 +270,18 @@ var StroopExperiment2 = function() {
                                      'rt':rt}
                                    );
 			
-			psiTurk.saveData();
+			//psiTurk.saveData();
 				
-			currentview = new StroopExperiment();
+			//currentview = new StroopExperiment();
+
+			finish2();
 		}
 	};
 
-	
+	var finish2 = function() {
+	    $("body").unbind("keydown", response_handler2); // Unbind keys
+	    currentview = new StroopExperiment();
+	};
 
 	
 	// Load the stage.html snippet into the body of the page
@@ -285,10 +290,10 @@ var StroopExperiment2 = function() {
 
 	// Register the response handler that is defined above to handle any
 	// key down events.
-	$("body").focus().keydown(response_handler); 
+	$("body").focus().keydown(response_handler2); 
 
 	// Start the test
-	next();
+	next2();
 
 	
 };
@@ -372,6 +377,11 @@ var Questionnaire = function() {
 		var an34 = document.getElementById("q34").value;
 		var an35 = document.getElementById("q35").value;
 
+		var an36 = document.getElementById("q36").value;
+		var an37 = document.getElementById("q37").value;
+		var an38 = document.getElementById("q38").value;
+
+
 
 		psiTurk.recordTrialData({'phase':"POST", 'status':"this", 'suban11':suban11, 'suban12':suban12, 'suban13':suban13, 
 								      'suban21':suban21, 'suban22':suban22, 'suban23':suban23, 'suban24':suban24, 
@@ -381,7 +391,8 @@ var Questionnaire = function() {
 								      'an6':an6, 'an7':an7, 'an8':an8, 'an9':an9, 'an10':an10, 'an11':an11, 'an12':an12, 'an13':an13,
 								      'an14':an14, 'an15':an15, 'an16':an16, 'an17':an17, 'an18':an18, 'an19':an19, 'an20':an20, 'an21':an21,
 								      'an22':an22, 'an23':an23, 'an24':an24, 'an25':an25, 'an26':an26, 'an27':an27,
-								      'an28':an28, 'an29':an29, 'an30':an30, 'an31':an31, 'an32':an32, 'an33':an33, 'an34':an34, 'an35':an35});
+								      'an28':an28, 'an29':an29, 'an30':an30, 'an31':an31, 'an32':an32, 'an33':an33, 'an34':an34, 'an35':an35,
+								      'an36':an36, 'an37':an37, 'an38':an38 });
 
 		$('textarea').each( function(i, val) {
 			psiTurk.recordUnstructuredData(this.id, this.value);
