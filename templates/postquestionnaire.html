@@ -1,9 +1,9 @@
 <div id="container-questionnaire">
-    <h1>Task Complete</h1>
+    <h1>Questionnaire</h1>
 
     <hr>
 
-    <p>You are finished!  Thank you for your contributions to science. You will be eligible for full payment once you answer the following questions.</p>
+    <p>You have completed the 12 trials! Please fill in the following questionnaire about online trust.</p>
 
     <div class="instructions well">
 
@@ -136,7 +136,7 @@
 	<!-- question 24-->
 	   <div class="row question">
                 <div class="col-md-8">
-                    <font color="green"> <B> Q2.4:</font> </B> I tend to trust online applications offered by public organizations more than those offered by commercial organization
+                    <font color="green"> <B> Q2.4:</font> </B> I tend to trust online applications offered by public organizations more than those offered by commercial organization.
                 </div>
                 <div class="col-md-4">
                     <select id="subq24" name="subq24">
@@ -376,7 +376,7 @@
 	<!-- question 47-->
 	   <div class="row question">
                 <div class="col-md-8">
-                     <font color="green"> <B> Q4.7: </font> </B> I look for trust marks or seals of approval 
+                     <font color="green"> <B> Q4.7: </font> </B> I look for trust marks** or seals of approval. 
                 </div>
                 <div class="col-md-4">
                     <select id="subq47" name="subq47">
@@ -391,6 +391,46 @@
                 </div>
             </div>
 
+	<!-- question 48-->
+	   <div class="row question">
+                <div class="col-md-8">
+                     <font color="green"> <B> Q4.8: </font> </B> I tend to be more cautious about visiting websites or using online services, systems or applications which have no trust marks.
+                </div>
+                <div class="col-md-4">
+                    <select id="subq48" name="subq48">
+                        
+                        <option disabled selected> -- select an option -- </option>
+                        <option value="1">1. Never </option>
+                        <option value="2">2. Hardly</option>
+                        <option value="3">3. Sometimes</option>
+                        <option value="4">4. Always</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+	<!-- question 49-->
+	   <div class="row question">
+                <div class="col-md-8">
+                     <font color="green"> <B> Q4.9: </font> </B> I tend to find a trust mark to be more authoritative if it has been accredited or endorsed by a public regulator.
+                </div>
+                <div class="col-md-4">
+                    <select id="subq49" name="subq49">
+                        
+                        <option disabled selected> -- select an option -- </option>
+                        <option value="1">1. Never </option>
+                        <option value="2">2. Hardly</option>
+                        <option value="3">3. Sometimes</option>
+                        <option value="4">4. Always</option>
+                        
+                    </select>
+                </div>
+            </div>
+
+	   <p> <font color = "blue"> ** trust mark  </font> = A symbol used to represent that a website, system, application and/or service has passed a particular set of best practice criteria i.e. 					for quality, privacy or security.  <BR>
+ 
+		Trust marks are also known by (but not limited to) the following terms: certification marks, authentication marks, quality assurance labels and seals of approval.  
+	   </p>
 
 <HR><BR><BR>
 
@@ -566,237 +606,56 @@
                 </div>
         </div>
 
-	<div class="row question">
-                <div class="col-md-8">
-                   <font color="green"> <B> Q11: </font> </B> How sensitive do you find the information you had to reveal about your demographics (Q6 to Q10)? (1 = Not Sensitive at all;  7 = Very Sensitive)
-                </div>
-                <div class="col-md-4">
-                    <select id="q11" name="q11">
-                        
-                        <option disabled selected> -- select an option -- </option> <option value="1">1 </option> <option value="2">2  </option> <option value="3">3  </option> 
-			<option value="4">4 </option> <option value="5">5 </option> <option value="6">6  </option> <option value="7">7  </option>
-                    </select>
-                </div>
-            </div>
-
+	
 
 	<div class="row question">
                 <div class="col-md-8">
-                   <font color="green"> <B> Q12: </font> </B> Do you think this information is available online about you by performing a search on, for example, Google?
-                </div>
-                <div class="col-md-4">
-                    <select id="q12" name="q12">
-                        <option disabled selected> -- select an option -- </option>
-                        <option value="1"> Yes </option>
-                        <option value="2"> No </option>
-                        
-                    </select>
-                </div>
-            </div>
+		 <font color="green"> <B> Q11:</font> </B>  In what city do you live? <BR>
+		
+                <div class="col-md-4"> 
+                   
+			 <input type="text" name="q110text" id="q11"  size="60">
+		   
+            	</div>
+	 	
+ 		</div>
+        </div>
 
-
-	 <div class="row question">
+	<div class="row question">
                 <div class="col-md-8">
-                  <font color="green"> <B> Q13: </font> </B> How important is it for you that this type of information about you is not publicly available? (1 = Not Important; 7 = Very Important)
+		<font color="green"> <B> Q12: </font> </B> In what city do you work? <BR>
+		
+                <div class="col-md-4"> 
+                   
+			 <input type="text" name="q120text" id="q12"  size="60">
+		   
+            	</div>
+	 	
+ 		</div>
+        </div>
 
-                </div>
-                <div class="col-md-4">
-                    <select id="q13" name="q13">
-                        
-                         <option disabled selected> -- select an option -- </option> <option value="1">1 </option><option value="2">2 </option> <option value="3" >3 </option> 
-			 <option value="4">4 </option> <option value="5">5 </option> <option value="6">6  </option> <option value="7">7  </option>
-
-                    </select>
-                </div>
-            </div>
-
-<HR><BR><BR><BR>
-	<!--------------------------------------------Health---------------------------------------------------->
-
-	<font color="green"> <B> The next questions ask about your health. </B> </font> <HR>
-
-
-	 <div class="row question">
+	<div class="row question">
                 <div class="col-md-8">
-                 <font color="green"> <B>  Q14: </font> </B> In general, how would you say your health is? Please choose one answer from the drop box.
+		<font color="green"> <B> Q13: </font> </B> Where did you spend your last holiday?  <BR>
+		
+                <div class="col-md-4"> 
+                   
+			 <input type="text" name="q130text" id="q13"  size="60">
+		   
+            	</div>
+	 	
+ 		</div>
+        </div>
+
+
+
+	<div class="row question">
+                <div class="col-md-8">
+                 <font color="green"> <B> Q14:</font> </B> How sensitive do you find the information you had to reveal about your location (Q6 to Q13)? (1 = Not Sensitive at all;  7 = Very Sensitive)
 
                 </div>
                 <div class="col-md-4">
                     <select id="q14" name="q14">
-
-                        <option disabled selected> -- select an option -- </option>
-                        <option value="1">1. Poor </option>
-                        <option value="2">2. Fair  </option>
-                        <option value="3">3. Good  </option>
-                        <option value="4">4. Very good </option>
-                        <option value="5">5. Excellent </option>
-                    </select>
-                </div>
-            </div>
-
-
- 	<div class="row question">
-                <div class="col-md-8">
-                <font color="green"> <B> Q15:  </font> </B> Please read following statements concerning your smoking behaviour and tick the box next to the statement that describes you best. Please 			choose one answer from the drop box.
-
-
-                </div>
-                <div >
-                    <select id="q15" name="q15">
-
-                        <option disabled selected> -- select an option -- </option>
-                        <option value="1">1. I have never smoked a cigarette  </option>
-                        <option value="2">2. I used to smoke sometimes, but I don't now  </option>
-                        <option value="3">3. I used to smoke regularly, but I don't now   </option>
-                        <option value="4">4. I smoke cigarettes, but not as many as one per day  </option>
-                        <option value="5">5. I usually smoke between 1 and 10 cigarettes per day </option>
-			<option value="6">6. I smoke more than 10 cigarettes a day </option>
-
-                    </select>
-                </div>
-            </div>
-
-	 <div class="row question">
-                <div class="col-md-8">
-		<font color="green"> <B> Q16: </font> </B> What is your height? (in centimeters) Only numbers may be entered in this field.  <BR>
-		
-                <div class="col-md-4"> 
-                   
-			 <input type="text" name="q16text" id="q16"  size="60">
-		   
-            	</div>
-	 	
- 		</div>
-        </div>
-
- 	<div class="row question">
-                <div class="col-md-8">
-		<font color="green"> <B> Q17: </font> </B> How much do you weigh? (in kilograms) Only numbers may be entered in this field.   <BR>
-		
-                <div class="col-md-4"> 
-                   
-			 <input type="text" name="q17text" id="q17"  size="60">
-		   
-            	</div>
-	 	
- 		</div>
-        </div>
-    
-	 <div class="row question">
-                <div class="col-md-8">
-		<font color="green"> <B> Q18: </font> </B> Do you suffer from a chronic disease? If so please specify.    <BR>
-		
-                <div class="col-md-4"> 
-                   
-			 <input type="text" name="q18text" id="q18"  size="60">
-		   
-            	</div>
-	 	
- 		</div>
-        </div>
-     
-
- 
-
-	 <div class="row question">
-                <div class="col-md-8">
-                 <font color="green"> <B> Q19: </font> </B> How sensitive do you find the information you had to reveal about yourself (Q14 to 18)? (1 = Not Sensitive at all;  7 = Very Sensitive)
-
-                </div>
-                <div class="col-md-4">
-                    <select id="q19" name="q19">
-                        
-                         <option disabled selected> -- select an option -- </option> <option value="1">1 </option> <option value="2">2  </option> <option value="3">3  </option>
-			 <option value="4">4 </option> <option value="5">5 </option> <option value="6">6  </option> <option value="7">7  </option>
-                    </select>
-                </div>
-            </div>
-
-
-	<div class="row question">
-                <div class="col-md-8">
-                   <font color="green"> <B> Q20: </font> </B> Do you think this information is available online about you by performing a search on, for example, Google?
-                </div>
-                <div class="col-md-4">
-                    <select id="q20" name="q20">
-                        
-                        <option disabled selected> -- select an option -- </option> <option value="1"> Yes </option> <option value="2"> No </option>
-                    </select>
-                </div>
-            </div>
-
-
-	<div class="row question">
-                <div class="col-md-8">
-                 <font color="green"> <B> Q21: </font> </B> How sensitive do you find the information you had to reveal about yourself (Q14 to 18)? (1 = Not Sensitive at all;  7 = Very Sensitive)
-
-                </div>
-                <div class="col-md-4">
-                    <select id="q21" name="q21">
-                        
-                        <option disabled selected> -- select an option -- </option> <option value="1">1 </option> <option value="2">2  </option> <option value="3">3  </option>
-			<option value="4">4 </option> <option value="5">5 </option> <option value="6">6  </option> <option value="7">7  </option>
-                    </select>
-                </div>
-            </div>
-
-
-<HR><BR><BR><BR>
-
-
-	<!--------------------------------------------Location---------------------------------------------------->
-
-
-	<font color="green"> <B> The next questions ask about your location. </B> </font> <HR>
-
-	<div class="row question">
-                <div class="col-md-8">
-		 <font color="green"> <B> Q22:</font> </B>  In what city do you live? <BR>
-		
-                <div class="col-md-4"> 
-                   
-			 <input type="text" name="q220text" id="q22"  size="60">
-		   
-            	</div>
-	 	
- 		</div>
-        </div>
-
-	<div class="row question">
-                <div class="col-md-8">
-		<font color="green"> <B> Q23: </font> </B> In what city do you work? <BR>
-		
-                <div class="col-md-4"> 
-                   
-			 <input type="text" name="q230text" id="q23"  size="60">
-		   
-            	</div>
-	 	
- 		</div>
-        </div>
-
-	<div class="row question">
-                <div class="col-md-8">
-		<font color="green"> <B> Q24: </font> </B> Where did you spend your last holiday?  <BR>
-		
-                <div class="col-md-4"> 
-                   
-			 <input type="text" name="q240text" id="q24"  size="60">
-		   
-            	</div>
-	 	
- 		</div>
-        </div>
-
-
-
-	<div class="row question">
-                <div class="col-md-8">
-                 <font color="green"> <B> Q25:</font> </B> How sensitive do you find the information you had to reveal about your location (Q22 to 24)? (1 = Not Sensitive at all;  7 = Very Sensitive)
-
-                </div>
-                <div class="col-md-4">
-                    <select id="q25" name="q25">
                         
                          <option disabled selected> -- select an option -- </option> <option value="1">1 </option><option value="2">2 </option> <option value="3">3 </option>
 			 <option value="4">4 </option> <option value="5">5 </option> <option value="6">6  </option> <option value="7">7  </option>
@@ -808,10 +667,10 @@
 
 	<div class="row question">
                 <div class="col-md-8">
-                  <font color="green"> <B> Q26:</font> </B>  Do you think this information is available online about you by performing a search on, for example, Google?
+                  <font color="green"> <B> Q15:</font> </B>  Do you think this information is available online about you by performing a search on, for example, Google?
                 </div>
                 <div class="col-md-4">
-                    <select id="q26" name="q26">
+                    <select id="q15" name="q15">
                         <option disabled selected> -- select an option -- </option>
                         <option value="1"> Yes </option>
                         <option value="2"> No </option>
@@ -822,11 +681,11 @@
 
 	<div class="row question">
                 <div class="col-md-8">
-                 <font color="green"> <B>  Q27: </font> </B> How important is it for you that this type of information about you is not publicly available? (1 = Not Important; 7 = Very Important)
+                 <font color="green"> <B>  Q16: </font> </B> How important is it for you that this type of information about you is not publicly available? (1 = Not Important; 7 = Very Important)
 
                 </div>
                 <div class="col-md-4">
-                    <select id="q27" name="q27">
+                    <select id="q16" name="q16">
                         
                         <option disabled selected> -- select an option -- </option> <option value="1">1 </option><option value="2">2 </option> <option value="3">3 </option>
 			<option value="4">4 </option> <option value="5">5 </option> <option value="6">6  </option> <option value="7">7  </option>
@@ -843,11 +702,11 @@
 
 	<div class="row question">
                 <div class="col-md-8">
-		<font color="green"> <B>  Q28: </font> </B> What social media (such as Facebook, Linkedin, Instagram, Twitter) do you use? Name your top 5.  <BR>
+		<font color="green"> <B>  Q17: </font> </B> What social media (such as Facebook, Linkedin, Instagram, Twitter) do you use? Name your top 5.  <BR>
 		
                 <div class="col-md-4"> 
                    
-			 <input type="text" name="q280text" id="q28"  size="60">
+			 <input type="text" name="q170text" id="q17"  size="60">
 		   
             	</div>
 	 	
@@ -856,11 +715,11 @@
 
 	<div class="row question">
                 <div class="col-md-8">
-		<font color="green"> <B> Q29: </font> </B> What sites (such as iTunes, Amazon, Cheaptickets, H&M, Nike) do you use to make online purchases? Name your top 5.   <BR>
+		<font color="green"> <B> Q18: </font> </B> What sites (such as iTunes, Amazon, Cheaptickets, H&M, Nike) do you use to make online purchases? Name your top 5.   <BR>
 		
                 <div class="col-md-4"> 
                    
-			 <input type="text" name="q290text" id="q29"  size="60">
+			 <input type="text" name="q180text" id="q18"  size="60">
 		   
             	</div>
 	 	
@@ -870,11 +729,11 @@
 
 	<div class="row question">
                 <div class="col-md-8">
-		<font color="green"> <B> Q30:</font> </B>  How do you tend to make online payments (such as credit card, debit card, paypal, smartphone app, invoice)? Name your top 3.   <BR>
+		<font color="green"> <B> Q19:</font> </B>  How do you tend to make online payments (such as credit card, debit card, paypal, smartphone app, invoice)? Name your top 3.   <BR>
 		
                 <div class="col-md-4"> 
                    
-			 <input type="text" name="q300text" id="q30"  size="60">
+			 <input type="text" name="q190text" id="q19"  size="60">
 		   
             	</div>
 	 	
@@ -885,11 +744,11 @@
 
 	<div class="row question">
                 <div class="col-md-8">
-                <font color="green"> <B> Q31: </font> </B> How sensitive do you find the information you had to reveal about yourself (Q28 to 30)? (1 = Not Sensitive at all;  7 = Very Sensitive)
+                <font color="green"> <B> Q20: </font> </B> How sensitive do you find the information you had to reveal about yourself (Q17 to 19)? (1 = Not Sensitive at all;  7 = Very Sensitive)
 
                 </div>
                 <div class="col-md-4">
-                    <select id="q31" name="q31">
+                    <select id="q20" name="q20">
                         
                         <option disabled selected> -- select an option -- </option> <option value="1">1 </option><option value="2">2 </option> <option value="3">3 </option> 
 			<option value="4">4 </option> <option value="5">5 </option> <option value="6">6  </option> <option value="7">7  </option>
@@ -902,10 +761,10 @@
 
 	<div class="row question">
                 <div class="col-md-8">
-                  <font color="green"> <B> Q32:</font> </B> Do you think this information is available online about you by performing a search on, for example, Google?
+                  <font color="green"> <B> Q21:</font> </B> Do you think this information is available online about you by performing a search on, for example, Google?
                 </div>
                 <div class="col-md-4">
-                    <select id="q32" name="q32">
+                    <select id="q21" name="q21">
 
                         <option disabled selected> -- select an option -- </option>
                         <option value="1"> Yes </option>
@@ -919,11 +778,11 @@
 
 	<div class="row question">
                 <div class="col-md-8">
-               <font color="green"> <B> Q33:</font> </B> How important is it for you that this type of information about you is not publicly available? (1 = Not Important; 7 = Very Important)
+               <font color="green"> <B> Q22:</font> </B> How important is it for you that this type of information about you is not publicly available? (1 = Not Important; 7 = Very Important)
 
                 </div>
                 <div class="col-md-4">
-                    <select id="q33" name="q33">
+                    <select id="q22" name="q22">
                         
                         <option disabled selected> -- select an option -- </option> <option value="1">1 </option><option value="2">2 </option> <option value="3">3 </option>
 			<option value="4">4 </option> <option value="5">5 </option> <option value="6">6  </option> <option value="7">7  </option>
@@ -935,10 +794,10 @@
 
 	<div class="row question">
                 <div class="col-md-8">
-                  <font color="green"> <B> Q34:</font> </B> Does your awareness of the kind of data that is processed change your attitude towards your online behavior? 
+                  <font color="green"> <B> Q23:</font> </B> Does your awareness of the kind of data that is processed change your attitude towards your online behavior? 
                 </div>
                 <div class="col-md-4">
-                    <select id="q34" name="q34">
+                    <select id="q23" name="q23">
 
                         <option disabled selected> -- select an option -- </option>
                         <option value="1"> Yes </option>
@@ -951,10 +810,10 @@
 
 	<div class="row question">
                 <div class="col-md-8">
-                  <font color="green"> <B> Q35:</font> </B>  Have you ever read the privacy policy of Google? 
+                  <font color="green"> <B> Q24:</font> </B>  Have you ever read the privacy policy of Google? 
                 </div>
                 <div class="col-md-4">
-                    <select id="q35" name="q35">
+                    <select id="q24" name="q24">
                         <option disabled selected> -- select an option -- </option>
                         <option value="1"> Yes </option>
                         <option value="2"> No </option>
@@ -973,10 +832,10 @@
 
 	<div class="row question">
                 <div class="col-md-8">
-                  <font color="green"> <B> Q36:</font> </B>  Would you use this hypothetical search engine in your every-day life judging from the accuracy of its results and privacy-friendliness? 
+                  <font color="green"> <B> Q25:</font> </B>  Would you use this hypothetical search engine in your every-day life judging from the accuracy of its results and privacy-friendliness? 
                 </div>
                 <div class="col-md-4">
-                    <select id="q36" name="q36">
+                    <select id="q25" name="q25">
                         <option disabled selected> -- select an option -- </option>
                         <option value="1"> Yes </option>
                         <option value="2"> No </option>
@@ -987,10 +846,10 @@
 
 	<div class="row question">
                 <div class="col-md-8">
- <font color="green"> <B> Q37:</font> </B>  Would you use this hypothetical search engine for a search session that revealed very private information about you (e.g., health status, religion, etc)?
+ <font color="green"> <B> Q26:</font> </B>  Would you use this hypothetical search engine for a search session that revealed very private information about you (e.g., health status, religion, etc)?
                 </div>
                 <div class="col-md-4">
-                    <select id="q37" name="q37">
+                    <select id="q26" name="q26">
                         <option disabled selected> -- select an option -- </option>
                         <option value="1"> Yes </option>
                         <option value="2"> No </option>
@@ -1005,15 +864,15 @@
 <!--------------------------------------------Feedback---------------------------------------------------->
 
 
-	<font color="green"> <B> The next question is about your feedback for the experiment </B> </font> <BR><BR>
+	<font color="green"> <B> The next question is optional. </B> </font> <BR><BR>
 	<div class="row question">
                 <div class="col-md-8">
-		<font color="green"> <B> Q38:</font> </B>  Do you have any thoughts, questions, feedback about the study to share with us? (optional)   <BR>
+		<font color="green"> <B> Q27:</font> </B>  Do you have any thoughts, questions, feedback about the study to share with us?   <BR>
 		
                 <div class="col-md-4"> 
                    
 			 
-		  	 <textarea  rows="10" style="width: 600px;"  id="q38" />
+		  	 <textarea  rows="10" style="width: 600px;"  id="q27" />
             	</div>
 	 	
  		</div>

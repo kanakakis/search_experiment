@@ -40,16 +40,16 @@
 		      
 
 
-			<textarea  rows="10" style="width: 600px;"  id="subdomaintwo" resize: none; disabled/>
+			<textarea  rows="12" style="width: 600px;"  id="subdomaintwo" resize: none; disabled/>
 
 			<div id="instr2_question11" width="350"> </div>
 
 		      
 
  			<div id="instr2_wrapper"> 
-			  <span class="range-before">Totally Distrust</span>
+			  <span class="range-before">Very Unlikely 0</span>
 			  <input type="range" id="instr2_sliderBar" min="0" max="100" step="1" value="50" onChange="instr2_mult_func_slider(this.value);"/>
-			  <span class="range-after">Totally Trust</span>
+			  <span class="range-after">Very Likely  100</span>
 		        </div>
 
 		      <div id="instr2_puttext2"></div>
@@ -148,7 +148,7 @@
 
 			//Svinei to keimeno apo pi8ani lan8asmenio apantisi kai dinei to swsto
 			
-	document.getElementById("subdomaintwo").value ="Great, this was the right answer. You may now continue: " + "\n" + "Please answer the following question by sliding the value bar to your selected number.";
+	document.getElementById("subdomaintwo").value ="Great, this was the right answer. You may now continue: " + "\n" + "Please answer the following question by sliding the value bar to your selected number.\n Please note this bar is for illustration purposes only. Currently, you can slide the bar only once. During the trials she will be able to change selection as many times necessary before hitting the ‘Enter’ key.";
 
 		
 
@@ -172,7 +172,7 @@
 		d3.select("#instr2_clbut")
 		  	.append("div")
 		 	 .attr("id","instr2tt_clbut")
-		  	.html("Below you may see the instractions, based on your actions");
+		  	.html("The outcomes of your actions are displayed below.");
 		
 		
 	};
@@ -186,12 +186,12 @@
 
 		//success and trust increase
 		if (document.getElementById("instr2_sliderBar").value >=50) {
-			document.getElementById("subdomaintwo").value += "\nYour response indicates a trust increase after a success, which is not surprising.\n\n You may now continue in the next page of instructions:\n Please click the 'Next' button below.";
+			document.getElementById("subdomaintwo").value += "\n\nYour response indicates a trust increase after a success, which is not surprising.\n\n You may now continue in the next page of instructions:\n Please click the 'Next' button below.";
 
 		}
 
 		if (document.getElementById("instr2_sliderBar").value < 50) {
-			document.getElementById("subdomaintwo").value += "\nYour response indicates a trust decrease after a success, which is interesting. \n\n You may now continue in the next page of instructions:\n Please click the 'Next' button below.";
+			document.getElementById("subdomaintwo").value += "\n\nYour response indicates a trust decrease after a success, which is interesting. \n\n You may now continue in the next page of instructions:\n Please click the 'Next' button below.";
 		}
 	};
 

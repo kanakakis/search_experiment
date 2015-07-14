@@ -10,48 +10,42 @@ debug8W22D9:debug7NZER7,difficulty,5
 debug8W22D9:debug7NZER7,engagement,5
 debugRRETC7:debugRPWFIA,difficulty,5
 debugRRETC7:debugRPWFIA,engagement,5
-debug5QLUX8:debugQQUTDZ,subq41,-- select an option --
-debug5QLUX8:debugQQUTDZ,subq43,-- select an option --
-debug5QLUX8:debugQQUTDZ,subq24,-- select an option --
-debug5QLUX8:debugQQUTDZ,subq23,-- select an option --
-debug5QLUX8:debugQQUTDZ,subq22,-- select an option --
-debug5QLUX8:debugQQUTDZ,subq21,-- select an option --
-debug5QLUX8:debugQQUTDZ,subq46,-- select an option --
-debug5QLUX8:debugQQUTDZ,q34,-- select an option --
-debug5QLUX8:debugQQUTDZ,q20,-- select an option --
-debug5QLUX8:debugQQUTDZ,q21,-- select an option --
-debug5QLUX8:debugQQUTDZ,subq42,-- select an option --
-debug5QLUX8:debugQQUTDZ,q25,-- select an option --
-debug5QLUX8:debugQQUTDZ,q26,-- select an option --
-debug5QLUX8:debugQQUTDZ,q27,-- select an option --
-debug5QLUX8:debugQQUTDZ,subq45,-- select an option --
-debug5QLUX8:debugQQUTDZ,subq44,-- select an option --
-debug5QLUX8:debugQQUTDZ,q38,BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-debug5QLUX8:debugQQUTDZ,subq47,-- select an option --
-debug5QLUX8:debugQQUTDZ,q6,1
-debug5QLUX8:debugQQUTDZ,q9,-- select an option --
-debug5QLUX8:debugQQUTDZ,subq12,-- select an option --
-debug5QLUX8:debugQQUTDZ,q19,-- select an option --
-debug5QLUX8:debugQQUTDZ,subq13,-- select an option --
-debug5QLUX8:debugQQUTDZ,subq52,-- select an option --
-debug5QLUX8:debugQQUTDZ,subq53,-- select an option --
-debug5QLUX8:debugQQUTDZ,subq51,-- select an option --
-debug5QLUX8:debugQQUTDZ,subq54,-- select an option --
-debug5QLUX8:debugQQUTDZ,q15,-- select an option --
-debug5QLUX8:debugQQUTDZ,q14,-- select an option --
-debug5QLUX8:debugQQUTDZ,q31,-- select an option --
-debug5QLUX8:debugQQUTDZ,q11,-- select an option --
-debug5QLUX8:debugQQUTDZ,q10,-- select an option --
-debug5QLUX8:debugQQUTDZ,q13,-- select an option --
-debug5QLUX8:debugQQUTDZ,q12,-- select an option --
-debug5QLUX8:debugQQUTDZ,subq31,-- select an option --
-debug5QLUX8:debugQQUTDZ,subq32,-- select an option --
-debug5QLUX8:debugQQUTDZ,subq33,-- select an option --
-debug5QLUX8:debugQQUTDZ,subq34,-- select an option --
-debug5QLUX8:debugQQUTDZ,subq35,-- select an option --
-debug5QLUX8:debugQQUTDZ,subq11,-- select an option --
-debug5QLUX8:debugQQUTDZ,q33,-- select an option --
-debug5QLUX8:debugQQUTDZ,q32,-- select an option --
-debug5QLUX8:debugQQUTDZ,q37,-- select an option --
-debug5QLUX8:debugQQUTDZ,q35,-- select an option --
-debug5QLUX8:debugQQUTDZ,q36,-- select an option --
+debug0V5E1W:debugBPQJD0,subq41,-- select an option --
+debug0V5E1W:debugBPQJD0,subq43,-- select an option --
+debug0V5E1W:debugBPQJD0,subq24,-- select an option --
+debug0V5E1W:debugBPQJD0,subq23,-- select an option --
+debug0V5E1W:debugBPQJD0,subq22,-- select an option --
+debug0V5E1W:debugBPQJD0,subq21,-- select an option --
+debug0V5E1W:debugBPQJD0,subq46,-- select an option --
+debug0V5E1W:debugBPQJD0,subq49,-- select an option --
+debug0V5E1W:debugBPQJD0,subq48,-- select an option --
+debug0V5E1W:debugBPQJD0,q20,-- select an option --
+debug0V5E1W:debugBPQJD0,q21,-- select an option --
+debug0V5E1W:debugBPQJD0,q22,-- select an option --
+debug0V5E1W:debugBPQJD0,subq42,-- select an option --
+debug0V5E1W:debugBPQJD0,q24,-- select an option --
+debug0V5E1W:debugBPQJD0,q25,1
+debug0V5E1W:debugBPQJD0,q26,2
+debug0V5E1W:debugBPQJD0,q27,VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVv
+debug0V5E1W:debugBPQJD0,subq45,-- select an option --
+debug0V5E1W:debugBPQJD0,subq44,-- select an option --
+debug0V5E1W:debugBPQJD0,subq47,-- select an option --
+debug0V5E1W:debugBPQJD0,q6,1
+debug0V5E1W:debugBPQJD0,q9,-- select an option --
+debug0V5E1W:debugBPQJD0,subq12,-- select an option --
+debug0V5E1W:debugBPQJD0,subq13,-- select an option --
+debug0V5E1W:debugBPQJD0,subq52,-- select an option --
+debug0V5E1W:debugBPQJD0,subq53,-- select an option --
+debug0V5E1W:debugBPQJD0,subq51,-- select an option --
+debug0V5E1W:debugBPQJD0,subq54,-- select an option --
+debug0V5E1W:debugBPQJD0,q15,-- select an option --
+debug0V5E1W:debugBPQJD0,q14,-- select an option --
+debug0V5E1W:debugBPQJD0,q16,-- select an option --
+debug0V5E1W:debugBPQJD0,q10,-- select an option --
+debug0V5E1W:debugBPQJD0,subq31,-- select an option --
+debug0V5E1W:debugBPQJD0,subq32,-- select an option --
+debug0V5E1W:debugBPQJD0,subq33,1
+debug0V5E1W:debugBPQJD0,subq34,-- select an option --
+debug0V5E1W:debugBPQJD0,subq35,-- select an option --
+debug0V5E1W:debugBPQJD0,subq11,1
+debug0V5E1W:debugBPQJD0,q23,-- select an option --

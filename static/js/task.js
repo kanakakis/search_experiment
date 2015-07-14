@@ -342,6 +342,8 @@ var Questionnaire = function() {
 		var suban45 = document.getElementById("subq45").value;	
 		var suban46 = document.getElementById("subq46").value;
 		var suban47 = document.getElementById("subq47").value;
+		var suban48 = document.getElementById("subq48").value;
+		var suban49 = document.getElementById("subq49").value;
 
 		var suban51 = document.getElementById("subq51").value;
 		var suban52 = document.getElementById("subq52").value;
@@ -375,31 +377,18 @@ var Questionnaire = function() {
 		var an26 = document.getElementById("q26").value;
 		var an27 = document.getElementById("q27").value;
 
-		var an28 = document.getElementById("q28").value;
-		var an29 = document.getElementById("q29").value;
-		var an30 = document.getElementById("q30").value;
-		var an31 = document.getElementById("q31").value;
-		var an32 = document.getElementById("q32").value;
-		var an33 = document.getElementById("q33").value;
-		var an34 = document.getElementById("q34").value;
-		var an35 = document.getElementById("q35").value;
-
-		var an36 = document.getElementById("q36").value;
-		var an37 = document.getElementById("q37").value;
-		var an38 = document.getElementById("q38").value;
+		
 
 
 
 		psiTurk.recordTrialData({'phase':"POST", 'status':"this", 'suban11':suban11, 'suban12':suban12, 'suban13':suban13, 
 								      'suban21':suban21, 'suban22':suban22, 'suban23':suban23, 'suban24':suban24, 
 								      'suban31':suban31, 'suban32':suban32, 'suban33':suban33, 'suban34':suban34, 'suban35':suban35,
-								   'suban41':suban41, 'suban42':suban42, 'suban43':suban43, 'suban44':suban44, 'suban45':suban45, 'suban46':suban46,'suban47':suban47,
+				'suban41':suban41, 'suban42':suban42, 'suban43':suban43, 'suban44':suban44, 'suban45':suban45, 'suban46':suban46,'suban47':suban47,'suban48':suban48,'suban49':suban49,
 								      'suban51':suban51, 'suban52':suban52, 'suban53':suban53, 'suban54':suban54,
 								      'an6':an6, 'an7':an7, 'an8':an8, 'an9':an9, 'an10':an10, 'an11':an11, 'an12':an12, 'an13':an13,
 								      'an14':an14, 'an15':an15, 'an16':an16, 'an17':an17, 'an18':an18, 'an19':an19, 'an20':an20, 'an21':an21,
-								      'an22':an22, 'an23':an23, 'an24':an24, 'an25':an25, 'an26':an26, 'an27':an27,
-								      'an28':an28, 'an29':an29, 'an30':an30, 'an31':an31, 'an32':an32, 'an33':an33, 'an34':an34, 'an35':an35,
-								      'an36':an36, 'an37':an37, 'an38':an38 });
+								      'an22':an22, 'an23':an23, 'an24':an24, 'an25':an25, 'an26':an26, 'an27':an27 });
 
 		$('textarea').each( function(i, val) {
 			psiTurk.recordUnstructuredData(this.id, this.value);
