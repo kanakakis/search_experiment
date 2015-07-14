@@ -19,19 +19,23 @@
 
                 <div id="wrapper">
 		  <div id="cbbbb">
-	              <svg id="stagesvg2"></svg>
+	              <div class="svg-div" id="stagesvg2"></div>
                       <div id="question11" width="350"> </div>
 		      <div id="sbbbb"> 
+			<span class="range-before">Totally Distrust</span>
 			<input type="range" id="sliderBar" min="0" max="100" step="1" value="50"  onChange="mult_func_slider(this.value);"/>
+			<span class="range-after">Totally Trust</span>
 		      </div>	
 		      <div id="puttext"></div>	
 		  </div>
 
 		  <div id="cbbbb1">
-			<svg id="stagesvg3"></svg>
+			<div class="svg-div" id="stagesvg3"></div>
 			<div id="question12" width="350"> </div>	
                         <div id="sbbbb2"> 
+			  <span class="range-before">Totally Distrust</span>
 			  <input type="range" id="sliderBar2" min="0" max="100" step="1" value="50" onChange="mult_func_slider2(this.value);"/>
+			  <span class="range-after">Totally Trust</span>
 		        </div>
 			<div id="puttext2"></div>	
 		  </div>
@@ -113,6 +117,8 @@ var figure_names2 = ["static/images/a1.jpg", "static/images/a2.jpg", "static/ima
 		document.getElementById("sliderBar2").disabled = false; 
 		document.getElementById('sliderBar2').style.visibility="visible";
 
+			document.getElementById('sbbbb2').style.visibility="visible";
+			document.getElementById('sbbbb').style.visibility="visible";
 
 		//document.getElementById("sliderBar1").disabled = false; 
 		//document.getElementById('sliderBar1').style.visibility="visible";
@@ -123,13 +129,9 @@ var figure_names2 = ["static/images/a1.jpg", "static/images/a2.jpg", "static/ima
 	var show_img = function(wh_to_sh) {
 
 		d3.select("#stagesvg2")
-			.append("image")
+			.append("img")
 			.attr("id","imggggg")
-			.attr("x", 0)
-			.attr("y", 0)
-			.attr("width", 264)
-			.attr("height", 350)
-			.attr("xlink:href", wh_to_sh);		
+			.attr("src", wh_to_sh);		
 	};
 
 
@@ -147,13 +149,9 @@ var figure_names2 = ["static/images/a1.jpg", "static/images/a2.jpg", "static/ima
 		
 		
 		d3.select("#stagesvg3")
-			.append("image")
+			.append("img")
 			.attr("id","imggggg4")
-			.attr("x", 0)
-			.attr("y", 0)
-			.attr("width", 264)
-			.attr("height", 350)
-			.attr("xlink:href", wh_to_sh);
+			.attr("src", wh_to_sh);
 
 	};
 

@@ -115,21 +115,57 @@ strong {
   text-align:center;
 }
 
-#wrapper svg{
-  /*width:264px;
-  height:288px; */
-  width:264px;
-  height:350px; 
+#wrapper div.svg-div{
+ 
+  width:100%;
   text-align:center;
   margin-bottom:20px;
+  margin-top: 30px;
+  overflow:hidden;
 }
+
+#wrapper .svg-div img{
+   width:auto !important;
+   height:175px; !important;
+}
+
 
 #sbbbb, #sbbbb2{
-  width:264px;
   margin-top:10px;
-  margin-left:68px;
 }
 
+#wrapper input[type=range]{
+  width: 230px;
+  display:inline-block;
+  margin-left:5px
+  margin-right:5px;
+}
+
+#instr2_wrapper input[type=range]{
+  width: 230px;
+  display:inline-block;
+  margin-left:5px
+  margin-right:5px;
+}
+
+#instr3_wrapper input[type=range]{
+  width: 230px;
+  display:inline-block;
+  margin-left:5px
+  margin-right:5px;
+}
+
+.range-before, .range-after{
+  display:inline-block;
+  width:70px;
+  vertical-align:middle;
+}
+
+/*
+.range-before{}
+
+.range-after{}
+*/
 #puttext_nt{
   margin-top:40px;
 }

@@ -94,8 +94,15 @@ var StroopExperiment = function() {
 			document.getElementById("sliderBar").disabled = true; 
 			document.getElementById('sliderBar').style.visibility="hidden";
 
+
 			document.getElementById("sliderBar2").disabled = true; 
 			document.getElementById('sliderBar2').style.visibility="hidden";
+
+			document.getElementById('sbbbb2').style.visibility="hidden";
+			document.getElementById('sbbbb').style.visibility="hidden";
+
+			//document.getElementsByClassName("range-before").style.visibility="hidden";
+			//document.getElementsByClassName("range-after").style.visibility="hidden";
 			
 			if (metritis==1) {
 
@@ -146,7 +153,7 @@ var StroopExperiment = function() {
                                      'rt':rt}
                                    );
 			
-			//psiTurk.saveData();
+			psiTurk.saveData();
 			
 
 			clear_stage();
@@ -270,9 +277,9 @@ var StroopExperiment2 = function() {
                                      'rt':rt}
                                    );
 			
-			//psiTurk.saveData();
+			psiTurk.saveData();
 				
-			//currentview = new StroopExperiment();
+			
 
 			finish2();
 		}

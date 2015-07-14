@@ -26,9 +26,9 @@
 
 		<div id="instr2_wrapper" align="center">
 
-		
-
-	              <svg id="instr2_stagesvg2" width="300" height="300" > </svg>
+		      <div align="center">
+		      	<img src="../../static/images/p1.jpg" id="instr2_iii" width="350px" height="300px"> 
+		      </div>
 
                       <div id="instr2_radio" align="center">
 				<input type="radio" id="instr2_radio1"  name="decide" value="success"  onclick="instr2_enable_next();"  > Relevant results appeared on 1st page
@@ -44,7 +44,13 @@
 
 			<div id="instr2_question11" width="350"> </div>
 
-		      <input type="range" id="instr2_sliderBar" min="0" max="100" step="1" value="50"  onChange="instr2_mult_func_slider(this.value);"/>
+		      
+
+ 			<div id="instr2_wrapper"> 
+			  <span class="range-before">Totally Distrust</span>
+			  <input type="range" id="instr2_sliderBar" min="0" max="100" step="1" value="50" onChange="instr2_mult_func_slider(this.value);"/>
+			  <span class="range-after">Totally Trust</span>
+		        </div>
 
 		      <div id="instr2_puttext2"></div>
 
@@ -96,6 +102,8 @@
 
 		document.getElementById("next2").disabled = true; 
 
+		document.getElementById("instr2_wrapper").style.visibility="hidden";
+		document.getElementById("instr2_iii").style.visibility="hidden";
 		document.getElementById("instr2_radio").style.visibility="hidden";
 		document.getElementById("instr2_sliderBar").style.visibility="hidden";
 		document.getElementById("instr2_sliderBar").disabled = true;
@@ -128,6 +136,7 @@
 			document.getElementById("instr2_radio1").disabled = true; 
 			document.getElementById("instr2_radio2").disabled = true; 
 
+			document.getElementById("instr2_wrapper").style.visibility="visible";
 			document.getElementById("instr2_sliderBar").style.visibility="visible";
 			document.getElementById("instr2_sliderBar").disabled = false; 
 			
@@ -151,18 +160,12 @@
 	var instr2_mult_func = function() {
 
                 
-		d3.select("#instr2_stagesvg2")
-				.append("image")
-				.attr("id","instr2_img2")
-				.attr("width", 300)
-				.attr("height", 300)
-				.attr("xlink:href", "static/images/p1.jpg");
 
 		
 		
 		document.getElementById("instr2_button1").disabled = true; 
-	
 		
+		document.getElementById("instr2_iii").style.visibility="visible";
 		document.getElementById("instr2_radio").style.visibility="visible";
 		document.getElementById("subdomaintwo").style.visibility="visible";
 
