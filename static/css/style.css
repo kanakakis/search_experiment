@@ -161,11 +161,15 @@ strong {
   vertical-align:middle;
 }
 
-/*
-.range-before{}
 
-.range-after{}
-*/
+.range-before{
+color: red;
+}
+
+.range-after{
+color: green;
+}
+
 #puttext_nt{
   margin-top:40px;
 }
