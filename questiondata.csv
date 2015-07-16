@@ -10,42 +10,81 @@ debug8W22D9:debug7NZER7,difficulty,5
 debug8W22D9:debug7NZER7,engagement,5
 debugRRETC7:debugRPWFIA,difficulty,5
 debugRRETC7:debugRPWFIA,engagement,5
-debug0V5E1W:debugBPQJD0,subq41,-- select an option --
-debug0V5E1W:debugBPQJD0,subq43,-- select an option --
-debug0V5E1W:debugBPQJD0,subq24,-- select an option --
-debug0V5E1W:debugBPQJD0,subq23,-- select an option --
-debug0V5E1W:debugBPQJD0,subq22,-- select an option --
-debug0V5E1W:debugBPQJD0,subq21,-- select an option --
-debug0V5E1W:debugBPQJD0,subq46,-- select an option --
-debug0V5E1W:debugBPQJD0,subq49,-- select an option --
-debug0V5E1W:debugBPQJD0,subq48,-- select an option --
-debug0V5E1W:debugBPQJD0,q20,-- select an option --
-debug0V5E1W:debugBPQJD0,q21,-- select an option --
-debug0V5E1W:debugBPQJD0,q22,-- select an option --
-debug0V5E1W:debugBPQJD0,subq42,-- select an option --
-debug0V5E1W:debugBPQJD0,q24,-- select an option --
-debug0V5E1W:debugBPQJD0,q25,1
-debug0V5E1W:debugBPQJD0,q26,2
-debug0V5E1W:debugBPQJD0,q27,VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVv
-debug0V5E1W:debugBPQJD0,subq45,-- select an option --
-debug0V5E1W:debugBPQJD0,subq44,-- select an option --
-debug0V5E1W:debugBPQJD0,subq47,-- select an option --
-debug0V5E1W:debugBPQJD0,q6,1
-debug0V5E1W:debugBPQJD0,q9,-- select an option --
-debug0V5E1W:debugBPQJD0,subq12,-- select an option --
-debug0V5E1W:debugBPQJD0,subq13,-- select an option --
-debug0V5E1W:debugBPQJD0,subq52,-- select an option --
-debug0V5E1W:debugBPQJD0,subq53,-- select an option --
-debug0V5E1W:debugBPQJD0,subq51,-- select an option --
-debug0V5E1W:debugBPQJD0,subq54,-- select an option --
-debug0V5E1W:debugBPQJD0,q15,-- select an option --
-debug0V5E1W:debugBPQJD0,q14,-- select an option --
-debug0V5E1W:debugBPQJD0,q16,-- select an option --
-debug0V5E1W:debugBPQJD0,q10,-- select an option --
-debug0V5E1W:debugBPQJD0,subq31,-- select an option --
-debug0V5E1W:debugBPQJD0,subq32,-- select an option --
-debug0V5E1W:debugBPQJD0,subq33,1
-debug0V5E1W:debugBPQJD0,subq34,-- select an option --
-debug0V5E1W:debugBPQJD0,subq35,-- select an option --
-debug0V5E1W:debugBPQJD0,subq11,1
-debug0V5E1W:debugBPQJD0,q23,-- select an option --
+debugDEA49M:debugZMBZFD,subq41,-- select an option --
+debugDEA49M:debugZMBZFD,subq43,-- select an option --
+debugDEA49M:debugZMBZFD,subq24,-- select an option --
+debugDEA49M:debugZMBZFD,subq23,-- select an option --
+debugDEA49M:debugZMBZFD,subq22,-- select an option --
+debugDEA49M:debugZMBZFD,subq21,-- select an option --
+debugDEA49M:debugZMBZFD,subq46,-- select an option --
+debugDEA49M:debugZMBZFD,subq49,-- select an option --
+debugDEA49M:debugZMBZFD,subq48,-- select an option --
+debugDEA49M:debugZMBZFD,q20,-- select an option --
+debugDEA49M:debugZMBZFD,q21,-- select an option --
+debugDEA49M:debugZMBZFD,q22,-- select an option --
+debugDEA49M:debugZMBZFD,subq42,-- select an option --
+debugDEA49M:debugZMBZFD,q24,-- select an option --
+debugDEA49M:debugZMBZFD,q25,2
+debugDEA49M:debugZMBZFD,q26,1
+debugDEA49M:debugZMBZFD,q27,Michal;is
+debugDEA49M:debugZMBZFD,subq45,-- select an option --
+debugDEA49M:debugZMBZFD,subq44,-- select an option --
+debugDEA49M:debugZMBZFD,subq47,-- select an option --
+debugDEA49M:debugZMBZFD,q6,1
+debugDEA49M:debugZMBZFD,q9,-- select an option --
+debugDEA49M:debugZMBZFD,subq12,-- select an option --
+debugDEA49M:debugZMBZFD,subq13,-- select an option --
+debugDEA49M:debugZMBZFD,subq52,-- select an option --
+debugDEA49M:debugZMBZFD,subq53,-- select an option --
+debugDEA49M:debugZMBZFD,subq51,-- select an option --
+debugDEA49M:debugZMBZFD,subq54,-- select an option --
+debugDEA49M:debugZMBZFD,q15,-- select an option --
+debugDEA49M:debugZMBZFD,q14,-- select an option --
+debugDEA49M:debugZMBZFD,q16,-- select an option --
+debugDEA49M:debugZMBZFD,q10,-- select an option --
+debugDEA49M:debugZMBZFD,subq31,-- select an option --
+debugDEA49M:debugZMBZFD,subq32,-- select an option --
+debugDEA49M:debugZMBZFD,subq33,-- select an option --
+debugDEA49M:debugZMBZFD,subq34,-- select an option --
+debugDEA49M:debugZMBZFD,subq35,-- select an option --
+debugDEA49M:debugZMBZFD,subq11,-- select an option --
+debugDEA49M:debugZMBZFD,q23,-- select an option --
+debugBBWD20:debugBSNS58,subq41,-- select an option --
+debugBBWD20:debugBSNS58,subq43,-- select an option --
+debugBBWD20:debugBSNS58,subq24,-- select an option --
+debugBBWD20:debugBSNS58,subq23,-- select an option --
+debugBBWD20:debugBSNS58,subq22,-- select an option --
+debugBBWD20:debugBSNS58,subq21,-- select an option --
+debugBBWD20:debugBSNS58,subq46,-- select an option --
+debugBBWD20:debugBSNS58,subq49,-- select an option --
+debugBBWD20:debugBSNS58,subq48,-- select an option --
+debugBBWD20:debugBSNS58,q20,-- select an option --
+debugBBWD20:debugBSNS58,q21,-- select an option --
+debugBBWD20:debugBSNS58,q22,-- select an option --
+debugBBWD20:debugBSNS58,subq42,-- select an option --
+debugBBWD20:debugBSNS58,q24,-- select an option --
+debugBBWD20:debugBSNS58,q25,-- select an option --
+debugBBWD20:debugBSNS58,q26,-- select an option --
+debugBBWD20:debugBSNS58,q27,Michalis2
+debugBBWD20:debugBSNS58,subq45,-- select an option --
+debugBBWD20:debugBSNS58,subq44,-- select an option --
+debugBBWD20:debugBSNS58,subq47,-- select an option --
+debugBBWD20:debugBSNS58,q6,1
+debugBBWD20:debugBSNS58,q9,-- select an option --
+debugBBWD20:debugBSNS58,subq12,-- select an option --
+debugBBWD20:debugBSNS58,subq13,-- select an option --
+debugBBWD20:debugBSNS58,subq52,-- select an option --
+debugBBWD20:debugBSNS58,subq53,-- select an option --
+debugBBWD20:debugBSNS58,subq51,-- select an option --
+debugBBWD20:debugBSNS58,subq54,-- select an option --
+debugBBWD20:debugBSNS58,q15,-- select an option --
+debugBBWD20:debugBSNS58,q14,-- select an option --
+debugBBWD20:debugBSNS58,q16,-- select an option --
+debugBBWD20:debugBSNS58,q10,-- select an option --
+debugBBWD20:debugBSNS58,subq31,-- select an option --
+debugBBWD20:debugBSNS58,subq32,-- select an option --
+debugBBWD20:debugBSNS58,subq33,-- select an option --
+debugBBWD20:debugBSNS58,subq34,-- select an option --
+debugBBWD20:debugBSNS58,subq35,-- select an option --
+debugBBWD20:debugBSNS58,subq11,-- select an option --
+debugBBWD20:debugBSNS58,q23,-- select an option --

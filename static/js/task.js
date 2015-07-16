@@ -81,7 +81,7 @@ var StroopExperiment = function() {
 			show_text_trial_number("You are currently at trial: <font color='red'> "   + metritis +  "  </font> / 12");
 
 
-			show_text_instr ("Click the Search Button below to see the results!!");
+			show_text_instr ("Click the Search Button below to see the results!");
 			
 			document.getElementById("button1").disabled = false; 	
 			document.getElementById('button1').style.visibility="visible";	
@@ -364,9 +364,19 @@ var Questionnaire = function() {
 		var an14 = document.getElementById("q14").value;
 		var an15 = document.getElementById("q15").value;
 		var an16 = document.getElementById("q16").value;
-		var an17 = document.getElementById("q17").value;
-		var an18 = document.getElementById("q18").value;
-		var an19 = document.getElementById("q19").value;
+
+		
+		var an171 = document.getElementById("q171").value;
+		var an172 = document.getElementById("q172").value;
+		var an173 = document.getElementById("q173").value;
+
+		var an181 = document.getElementById("q181").value;
+		var an182 = document.getElementById("q182").value;
+		var an183 = document.getElementById("q183").value;
+
+		var an191 = document.getElementById("q191").value;
+		var an192 = document.getElementById("q192").value;
+
 		var an20 = document.getElementById("q20").value;
 		var an21 = document.getElementById("q21").value;
 
@@ -386,9 +396,11 @@ var Questionnaire = function() {
 								      'suban31':suban31, 'suban32':suban32, 'suban33':suban33, 'suban34':suban34, 'suban35':suban35,
 				'suban41':suban41, 'suban42':suban42, 'suban43':suban43, 'suban44':suban44, 'suban45':suban45, 'suban46':suban46,'suban47':suban47,'suban48':suban48,'suban49':suban49,
 								      'suban51':suban51, 'suban52':suban52, 'suban53':suban53, 'suban54':suban54,
-								      'an6':an6, 'an7':an7, 'an8':an8, 'an9':an9, 'an10':an10, 'an11':an11, 'an12':an12, 'an13':an13,
-								      'an14':an14, 'an15':an15, 'an16':an16, 'an17':an17, 'an18':an18, 'an19':an19, 'an20':an20, 'an21':an21,
-								      'an22':an22, 'an23':an23, 'an24':an24, 'an25':an25, 'an26':an26, 'an27':an27 });
+						   'an6':an6, 'an7':an7, 'an8':an8, 'an9':an9, 'an10':an10, 'an11':an11, 'an12':an12, 'an13':an13,'an14':an14, 'an15':an15, 'an16':an16,
+								      'an171':an171, 'an172':an172, 'an173':an173,
+							              'an181':an181, 'an182':an182, 'an183':an183, 
+								      'an191':an191, 'an192':an192,
+						 'an20':an20, 'an21':an21, 'an22':an22, 'an23':an23, 'an24':an24, 'an25':an25, 'an26':an26, 'an27':an27 });
 
 		$('textarea').each( function(i, val) {
 			psiTurk.recordUnstructuredData(this.id, this.value);
